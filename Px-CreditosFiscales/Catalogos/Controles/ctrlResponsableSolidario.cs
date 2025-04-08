@@ -453,17 +453,10 @@ namespace Px_CreditosFiscales.Catalogos.Controles
                 txtFraccion.Text = "";
                 txtDocto.Text = "";
 
-
             }
-            else { 
-            
-            }
-
 
         }
 
-
-        
 
         public class ComboBoxItem
         {
