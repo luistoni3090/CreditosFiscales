@@ -1,0 +1,390 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cliente", "Cliente", "{BF9540B5-E24D-4927-BC74-DCD89EB221DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{F36835C1-D38C-4B09-B9C6-53C2B1A24ADD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Base", "Base", "{859D965C-5900-479C-9261-D0D6AB71B1CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-Licencias", "Px-Licencias\Px-Licencias.csproj", "{705E179D-C298-4DC2-8EF4-9EBA68E68C58}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Px-Server", "Px-Server\Px-Server.csproj", "{9B61CEC0-074E-4A18-8BF1-6657510A9447}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Px-DBFactory", "Px-DBFactory\Px-DBFactory.csproj", "{C0FE8E14-80E9-4316-853C-EAC2101C7965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocio", "Negocio", "{73D65854-ACC7-41BE-862E-C2FF885A013B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Px-Negocio", "Px-Negocio\Px-Negocio.csproj", "{F24BEEE6-B2B7-4A1B-ACCA-361D15C16E19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-Contabilidad", "Px-Contabilidad\Px-Contabilidad.csproj", "{F4137D63-3CA9-468A-8355-A11F2EC5F2BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-Controles", "Px-Controles\Px-Controles.csproj", "{AA4B38F9-BF27-4663-B669-54282EA204A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-Utiles", "Px-Utiles\Px-Utiles.csproj", "{314D6FE5-DEF5-4619-B131-A0043EDE345A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-Bancos", "Px-Bancos\Px-Bancos.csproj", "{E4830F73-7C06-49A5-99BA-02BD3AC9FC58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-BienesMuebles", "Px-BienesMuebles\Px-BienesMuebles.csproj", "{753756AE-2DC9-46DB-9A41-770E49BBDC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-Egresos", "Px-Egresos\Px-Egresos.csproj", "{E5BF1173-C752-429A-811A-2064DA2814DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-ConciliacionBancaria", "Px-ConciliacionBancaria\Px-ConciliacionBancaria.csproj", "{3E1FA3DD-7B6F-4FA5-80C5-5BE68CE31BE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-TramiesPresupuestales", "Px-TramiesPresupuestales\Px-TramiesPresupuestales.csproj", "{5AA666AC-096F-4732-A7FC-3DB696A48D07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-ConsolidacionEstadosFinancieros", "Px-ConsolidacionEstadosFinancieros\Px-ConsolidacionEstadosFinancieros.csproj", "{66C84B4F-BE53-4E53-9695-45CA626A9F2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-InversionPublica", "Px-InversionPublica\Px-InversionPublica.csproj", "{ADC54E6C-3AEA-414C-AAA2-8E0F286FFC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-ImpuestosEstatales", "Px-ImpuestosEstatales\Px-ImpuestosEstatales.csproj", "{CD91B481-8F32-4248-9F79-384399CD212E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-PadronIdentidad", "Px-PadronIdentidad\Px-PadronIdentidad.csproj", "{187EE480-F327-49C8-842E-F0FB2CB1A795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-Cajas", "Px-Cajas\Px-Cajas.csproj", "{F2EC119A-2DD5-4085-A408-876F7F6CEE45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-CajasServicioPublico", "Px-CajasServicioPublico\Px-CajasServicioPublico.csproj", "{761AE5ED-2066-4848-B52D-05CB825A020E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-CreditosFiscales", "Px-CreditosFiscales\Px-CreditosFiscales.csproj", "{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-PadronContribuyentes", "Px-PadronContribuyentes\Px-PadronContribuyentes.csproj", "{87C3FBA0-B8D8-4921-8C01-7F1B0EAB31D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-Ingresos", "Px-Ingresos\Px-Ingresos.csproj", "{EEC4FF6D-A315-4959-98AA-957294251A83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Px-ControlVehicular", "Px-ControlVehicular\Px-ControlVehicular.csproj", "{13315BB8-58A6-4217-8A00-08A97B95AE20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comun", "Comun", "{7131D738-DDE1-4670-9294-23C0054E8327}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Recursos", "Recursos", "{18558117-FEAD-43A4-9ED2-97F19A524686}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{E4DF27F9-69E5-428A-8F91-D87C6E025FD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ico", "ico", "{45961DED-4960-4D12-A5DC-D1EC073EABBF}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Doc\ico\Banco.ico = ..\..\..\Doc\ico\Banco.ico
+		..\..\..\Doc\ico\Banco.png = ..\..\..\Doc\ico\Banco.png
+		..\..\..\Doc\ico\BienesMuebles.ico = ..\..\..\Doc\ico\BienesMuebles.ico
+		..\..\..\Doc\ico\BienesMuebles.png = ..\..\..\Doc\ico\BienesMuebles.png
+		..\..\..\Doc\ico\Cajas.ico = ..\..\..\Doc\ico\Cajas.ico
+		..\..\..\Doc\ico\Cajas.png = ..\..\..\Doc\ico\Cajas.png
+		..\..\..\Doc\ico\CajasServicioPublico.ico = ..\..\..\Doc\ico\CajasServicioPublico.ico
+		..\..\..\Doc\ico\CajasServicioPublico.png = ..\..\..\Doc\ico\CajasServicioPublico.png
+		..\..\..\Doc\ico\ConciliacionBancaria.ico = ..\..\..\Doc\ico\ConciliacionBancaria.ico
+		..\..\..\Doc\ico\ConciliacionBancaria.png = ..\..\..\Doc\ico\ConciliacionBancaria.png
+		..\..\..\Doc\ico\ConsolidacionEstadosFinancieros.ico = ..\..\..\Doc\ico\ConsolidacionEstadosFinancieros.ico
+		..\..\..\Doc\ico\ConsolidacionEstadosFinancieros.png = ..\..\..\Doc\ico\ConsolidacionEstadosFinancieros.png
+		..\..\..\Doc\ico\Conta00.ico = ..\..\..\Doc\ico\Conta00.ico
+		..\..\..\Doc\ico\Conta00.png = ..\..\..\Doc\ico\Conta00.png
+		..\..\..\Doc\ico\Conta01.ico = ..\..\..\Doc\ico\Conta01.ico
+		..\..\..\Doc\ico\Conta01.png = ..\..\..\Doc\ico\Conta01.png
+		..\..\..\Doc\ico\ControlVehicular.ico = ..\..\..\Doc\ico\ControlVehicular.ico
+		..\..\..\Doc\ico\ControlVehicular.png = ..\..\..\Doc\ico\ControlVehicular.png
+		..\..\..\Doc\ico\CreditosFiscales.ico = ..\..\..\Doc\ico\CreditosFiscales.ico
+		..\..\..\Doc\ico\CreditosFiscales.png = ..\..\..\Doc\ico\CreditosFiscales.png
+		..\..\..\Doc\ico\Egresos.ico = ..\..\..\Doc\ico\Egresos.ico
+		..\..\..\Doc\ico\Egresos.png = ..\..\..\Doc\ico\Egresos.png
+		..\..\..\Doc\ico\ImpuestosEstatales.ico = ..\..\..\Doc\ico\ImpuestosEstatales.ico
+		..\..\..\Doc\ico\ImpuestosEstatales.png = ..\..\..\Doc\ico\ImpuestosEstatales.png
+		..\..\..\Doc\ico\Ingresos.ico = ..\..\..\Doc\ico\Ingresos.ico
+		..\..\..\Doc\ico\Ingresos.png = ..\..\..\Doc\ico\Ingresos.png
+		..\..\..\Doc\ico\InversionPublica.ico = ..\..\..\Doc\ico\InversionPublica.ico
+		..\..\..\Doc\ico\InversionPublica.png = ..\..\..\Doc\ico\InversionPublica.png
+		..\..\..\Doc\ico\PadronContribuyentes.ico = ..\..\..\Doc\ico\PadronContribuyentes.ico
+		..\..\..\Doc\ico\PadronContribuyentes.png = ..\..\..\Doc\ico\PadronContribuyentes.png
+		..\..\..\Doc\ico\PadronIdentidad.ico = ..\..\..\Doc\ico\PadronIdentidad.ico
+		..\..\..\Doc\ico\PadronIdentidad.png = ..\..\..\Doc\ico\PadronIdentidad.png
+		..\..\..\Doc\ico\Panxea.ico = ..\..\..\Doc\ico\Panxea.ico
+		..\..\..\Doc\ico\Panxeaico.png = ..\..\..\Doc\ico\Panxeaico.png
+		..\..\..\Doc\ico\TramitesPresupuestales.ico = ..\..\..\Doc\ico\TramitesPresupuestales.ico
+		..\..\..\Doc\ico\TramitesPresupuestales.png = ..\..\..\Doc\ico\TramitesPresupuestales.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "img", "img", "{22D9917E-4348-4883-8FE1-925BFA1DA2B6}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Doc\img\100%_16px.png = ..\..\..\Doc\img\100%_16px.png
+		..\..\..\Doc\img\Banco.png = ..\..\..\Doc\img\Banco.png
+		..\..\..\Doc\img\Banco01.png = ..\..\..\Doc\img\Banco01.png
+		..\..\..\Doc\img\Banco02.png = ..\..\..\Doc\img\Banco02.png
+		..\..\..\Doc\img\BienesMuebles00.png = ..\..\..\Doc\img\BienesMuebles00.png
+		..\..\..\Doc\img\BienesMuebles01.png = ..\..\..\Doc\img\BienesMuebles01.png
+		..\..\..\Doc\img\BienesMuebles02.png = ..\..\..\Doc\img\BienesMuebles02.png
+		..\..\..\Doc\img\btnClose.png = ..\..\..\Doc\img\btnClose.png
+		..\..\..\Doc\img\btnCloseCat.png = ..\..\..\Doc\img\btnCloseCat.png
+		..\..\..\Doc\img\btnCloseMsg.png = ..\..\..\Doc\img\btnCloseMsg.png
+		..\..\..\Doc\img\btnMax.png = ..\..\..\Doc\img\btnMax.png
+		..\..\..\Doc\img\btnMin.png = ..\..\..\Doc\img\btnMin.png
+		..\..\..\Doc\img\btnMsgCancel.png = ..\..\..\Doc\img\btnMsgCancel.png
+		..\..\..\Doc\img\btnMsgDefault.png = ..\..\..\Doc\img\btnMsgDefault.png
+		..\..\..\Doc\img\btnMsgError.png = ..\..\..\Doc\img\btnMsgError.png
+		..\..\..\Doc\img\btnMsgInfo.png = ..\..\..\Doc\img\btnMsgInfo.png
+		..\..\..\Doc\img\btnMsgOk.png = ..\..\..\Doc\img\btnMsgOk.png
+		..\..\..\Doc\img\btnMsgQuestion.png = ..\..\..\Doc\img\btnMsgQuestion.png
+		..\..\..\Doc\img\btnMsgSuccess.png = ..\..\..\Doc\img\btnMsgSuccess.png
+		..\..\..\Doc\img\btnMsgWarning.png = ..\..\..\Doc\img\btnMsgWarning.png
+		..\..\..\Doc\img\Cajas00.png = ..\..\..\Doc\img\Cajas00.png
+		..\..\..\Doc\img\Cajas01.png = ..\..\..\Doc\img\Cajas01.png
+		..\..\..\Doc\img\Cajas02.png = ..\..\..\Doc\img\Cajas02.png
+		..\..\..\Doc\img\CajasServicioPublico00.png = ..\..\..\Doc\img\CajasServicioPublico00.png
+		..\..\..\Doc\img\CajasServicioPublico01.png = ..\..\..\Doc\img\CajasServicioPublico01.png
+		..\..\..\Doc\img\CajasServicioPublico02.png = ..\..\..\Doc\img\CajasServicioPublico02.png
+		..\..\..\Doc\img\caret-down.png = ..\..\..\Doc\img\caret-down.png
+		..\..\..\Doc\img\caret-right.png = ..\..\..\Doc\img\caret-right.png
+		..\..\..\Doc\img\checkbox0.png = ..\..\..\Doc\img\checkbox0.png
+		..\..\..\Doc\img\checkbox00.png = ..\..\..\Doc\img\checkbox00.png
+		..\..\..\Doc\img\checkbox1.png = ..\..\..\Doc\img\checkbox1.png
+		..\..\..\Doc\img\checkbox10.png = ..\..\..\Doc\img\checkbox10.png
+		..\..\..\Doc\img\cmbDown.png = ..\..\..\Doc\img\cmbDown.png
+		..\..\..\Doc\img\ConciliacionBancaria00.png = ..\..\..\Doc\img\ConciliacionBancaria00.png
+		..\..\..\Doc\img\ConciliacionBancaria01.png = ..\..\..\Doc\img\ConciliacionBancaria01.png
+		..\..\..\Doc\img\ConciliacionBancaria02.png = ..\..\..\Doc\img\ConciliacionBancaria02.png
+		..\..\..\Doc\img\ConsolidacionEstadosFinancieros00.png = ..\..\..\Doc\img\ConsolidacionEstadosFinancieros00.png
+		..\..\..\Doc\img\ConsolidacionEstadosFinancieros01.png = ..\..\..\Doc\img\ConsolidacionEstadosFinancieros01.png
+		..\..\..\Doc\img\ConsolidacionEstadosFinancieros02.png = ..\..\..\Doc\img\ConsolidacionEstadosFinancieros02.png
+		..\..\..\Doc\img\Conta00.png = ..\..\..\Doc\img\Conta00.png
+		..\..\..\Doc\img\Conta01.png = ..\..\..\Doc\img\Conta01.png
+		..\..\..\Doc\img\Conta02.png = ..\..\..\Doc\img\Conta02.png
+		..\..\..\Doc\img\ControlVehicular00.png = ..\..\..\Doc\img\ControlVehicular00.png
+		..\..\..\Doc\img\ControlVehicular01.png = ..\..\..\Doc\img\ControlVehicular01.png
+		..\..\..\Doc\img\ControlVehicular02.png = ..\..\..\Doc\img\ControlVehicular02.png
+		..\..\..\Doc\img\CreditosFiscales00.png = ..\..\..\Doc\img\CreditosFiscales00.png
+		..\..\..\Doc\img\CreditosFiscales01.png = ..\..\..\Doc\img\CreditosFiscales01.png
+		..\..\..\Doc\img\CreditosFiscales02.png = ..\..\..\Doc\img\CreditosFiscales02.png
+		..\..\..\Doc\img\Down.png = ..\..\..\Doc\img\Down.png
+		..\..\..\Doc\img\Egresos00.png = ..\..\..\Doc\img\Egresos00.png
+		..\..\..\Doc\img\Egresos01.png = ..\..\..\Doc\img\Egresos01.png
+		..\..\..\Doc\img\Egresos02.png = ..\..\..\Doc\img\Egresos02.png
+		..\..\..\Doc\img\GBC.png = ..\..\..\Doc\img\GBC.png
+		..\..\..\Doc\img\ImpuestosEstatales00.png = ..\..\..\Doc\img\ImpuestosEstatales00.png
+		..\..\..\Doc\img\ImpuestosEstatales01.png = ..\..\..\Doc\img\ImpuestosEstatales01.png
+		..\..\..\Doc\img\ImpuestosEstatales02.png = ..\..\..\Doc\img\ImpuestosEstatales02.png
+		..\..\..\Doc\img\Ingresos00.png = ..\..\..\Doc\img\Ingresos00.png
+		..\..\..\Doc\img\Ingresos01.png = ..\..\..\Doc\img\Ingresos01.png
+		..\..\..\Doc\img\Ingresos02.png = ..\..\..\Doc\img\Ingresos02.png
+		..\..\..\Doc\img\InversionPublica00.png = ..\..\..\Doc\img\InversionPublica00.png
+		..\..\..\Doc\img\InversionPublica01.png = ..\..\..\Doc\img\InversionPublica01.png
+		..\..\..\Doc\img\InversionPublica02.png = ..\..\..\Doc\img\InversionPublica02.png
+		..\..\..\Doc\img\invoice_32px.png = ..\..\..\Doc\img\invoice_32px.png
+		..\..\..\Doc\img\mAcercaDe.png = ..\..\..\Doc\img\mAcercaDe.png
+		..\..\..\Doc\img\mAcercaDe1.png = ..\..\..\Doc\img\mAcercaDe1.png
+		..\..\..\Doc\img\mAplicarMomentosContables.png = ..\..\..\Doc\img\mAplicarMomentosContables.png
+		..\..\..\Doc\img\mAplicarMomentosContables1.png = ..\..\..\Doc\img\mAplicarMomentosContables1.png
+		..\..\..\Doc\img\mArchivo.png = ..\..\..\Doc\img\mArchivo.png
+		..\..\..\Doc\img\mArmonizacion.png = ..\..\..\Doc\img\mArmonizacion.png
+		..\..\..\Doc\img\mArmonizacion1.png = ..\..\..\Doc\img\mArmonizacion1.png
+		..\..\..\Doc\img\mAyuda.png = ..\..\..\Doc\img\mAyuda.png
+		..\..\..\Doc\img\mAyudaEnLinea.png = ..\..\..\Doc\img\mAyudaEnLinea.png
+		..\..\..\Doc\img\mAyudaEnLinea1.png = ..\..\..\Doc\img\mAyudaEnLinea1.png
+		..\..\..\Doc\img\mCambioPeriodo.png = ..\..\..\Doc\img\mCambioPeriodo.png
+		..\..\..\Doc\img\mCambioPeriodo1.png = ..\..\..\Doc\img\mCambioPeriodo1.png
+		..\..\..\Doc\img\mCargaPresupuesto.png = ..\..\..\Doc\img\mCargaPresupuesto.png
+		..\..\..\Doc\img\mCargaPresupuesto1.png = ..\..\..\Doc\img\mCargaPresupuesto1.png
+		..\..\..\Doc\img\mCargaSaldosIniciales.png = ..\..\..\Doc\img\mCargaSaldosIniciales.png
+		..\..\..\Doc\img\mCargaSaldosIniciales1.png = ..\..\..\Doc\img\mCargaSaldosIniciales1.png
+		..\..\..\Doc\img\mCatalogos.png = ..\..\..\Doc\img\mCatalogos.png
+		..\..\..\Doc\img\mCatalogosDet.png = ..\..\..\Doc\img\mCatalogosDet.png
+		..\..\..\Doc\img\mCatalogosDet1.png = ..\..\..\Doc\img\mCatalogosDet1.png
+		..\..\..\Doc\img\mCierreEjercicio.png = ..\..\..\Doc\img\mCierreEjercicio.png
+		..\..\..\Doc\img\mCierreEjercicio1.png = ..\..\..\Doc\img\mCierreEjercicio1.png
+		..\..\..\Doc\img\mConfig.png = ..\..\..\Doc\img\mConfig.png
+		..\..\..\Doc\img\mConfigConn.png = ..\..\..\Doc\img\mConfigConn.png
+		..\..\..\Doc\img\mConfigDet.png = ..\..\..\Doc\img\mConfigDet.png
+		..\..\..\Doc\img\mConfigDet1.png = ..\..\..\Doc\img\mConfigDet1.png
+		..\..\..\Doc\img\mConfigPrint.png = ..\..\..\Doc\img\mConfigPrint.png
+		..\..\..\Doc\img\mConsolidaInfo.png = ..\..\..\Doc\img\mConsolidaInfo.png
+		..\..\..\Doc\img\mConsolidaInfo1.png = ..\..\..\Doc\img\mConsolidaInfo1.png
+		..\..\..\Doc\img\mConsultas.png = ..\..\..\Doc\img\mConsultas.png
+		..\..\..\Doc\img\mConta.png = ..\..\..\Doc\img\mConta.png
+		..\..\..\Doc\img\mCuentas.png = ..\..\..\Doc\img\mCuentas.png
+		..\..\..\Doc\img\mCuentas1.png = ..\..\..\Doc\img\mCuentas1.png
+		..\..\..\Doc\img\mDesaplica.png = ..\..\..\Doc\img\mDesaplica.png
+		..\..\..\Doc\img\mDesaplica1.png = ..\..\..\Doc\img\mDesaplica1.png
+		..\..\..\Doc\img\Menu.png = ..\..\..\Doc\img\Menu.png
+		..\..\..\Doc\img\MenuGen.png = ..\..\..\Doc\img\MenuGen.png
+		..\..\..\Doc\img\mExportaSaldosIniciales.png = ..\..\..\Doc\img\mExportaSaldosIniciales.png
+		..\..\..\Doc\img\mExportaSaldosIniciales1.png = ..\..\..\Doc\img\mExportaSaldosIniciales1.png
+		..\..\..\Doc\img\mGeneracionArchivoConsolidacion.png = ..\..\..\Doc\img\mGeneracionArchivoConsolidacion.png
+		..\..\..\Doc\img\mGeneracionArchivoConsolidacion1.png = ..\..\..\Doc\img\mGeneracionArchivoConsolidacion1.png
+		..\..\..\Doc\img\mGeneracionArchivoSEVAC.png = ..\..\..\Doc\img\mGeneracionArchivoSEVAC.png
+		..\..\..\Doc\img\mGeneracionArchivoSEVAC1.png = ..\..\..\Doc\img\mGeneracionArchivoSEVAC1.png
+		..\..\..\Doc\img\mImportaCtasEquivalentes.png = ..\..\..\Doc\img\mImportaCtasEquivalentes.png
+		..\..\..\Doc\img\mImportaCtasEquivalentes1.png = ..\..\..\Doc\img\mImportaCtasEquivalentes1.png
+		..\..\..\Doc\img\mMantenimiento.png = ..\..\..\Doc\img\mMantenimiento.png
+		..\..\..\Doc\img\mMantenimiento1.png = ..\..\..\Doc\img\mMantenimiento1.png
+		..\..\..\Doc\img\mMomentosContables.png = ..\..\..\Doc\img\mMomentosContables.png
+		..\..\..\Doc\img\mMomentosContables1.png = ..\..\..\Doc\img\mMomentosContables1.png
+		..\..\..\Doc\img\mnu0.png = ..\..\..\Doc\img\mnu0.png
+		..\..\..\Doc\img\mnuTmp.png = ..\..\..\Doc\img\mnuTmp.png
+		..\..\..\Doc\img\mPoliza.png = ..\..\..\Doc\img\mPoliza.png
+		..\..\..\Doc\img\mPolizasAplicadas.png = ..\..\..\Doc\img\mPolizasAplicadas.png
+		..\..\..\Doc\img\mPolizasAplicadas1.png = ..\..\..\Doc\img\mPolizasAplicadas1.png
+		..\..\..\Doc\img\mPolizasPendientesPorAplicar.png = ..\..\..\Doc\img\mPolizasPendientesPorAplicar.png
+		..\..\..\Doc\img\mPolizasPendientesPorAplicar1.png = ..\..\..\Doc\img\mPolizasPendientesPorAplicar1.png
+		..\..\..\Doc\img\mPrePoliza.png = ..\..\..\Doc\img\mPrePoliza.png
+		..\..\..\Doc\img\mPrePoliza1.png = ..\..\..\Doc\img\mPrePoliza1.png
+		..\..\..\Doc\img\mPrePolizaAutomatica.png = ..\..\..\Doc\img\mPrePolizaAutomatica.png
+		..\..\..\Doc\img\mPrePolizaAutomatica1.png = ..\..\..\Doc\img\mPrePolizaAutomatica1.png
+		..\..\..\Doc\img\mPrePolizaAutorizacion.png = ..\..\..\Doc\img\mPrePolizaAutorizacion.png
+		..\..\..\Doc\img\mPrePolizaAutorizacion1.png = ..\..\..\Doc\img\mPrePolizaAutorizacion1.png
+		..\..\..\Doc\img\mPrePolizaManual.png = ..\..\..\Doc\img\mPrePolizaManual.png
+		..\..\..\Doc\img\mPrePolizaManual1.png = ..\..\..\Doc\img\mPrePolizaManual1.png
+		..\..\..\Doc\img\mProcesos.png = ..\..\..\Doc\img\mProcesos.png
+		..\..\..\Doc\img\mRefrescarVistas.png = ..\..\..\Doc\img\mRefrescarVistas.png
+		..\..\..\Doc\img\mRefrescarVistas1.png = ..\..\..\Doc\img\mRefrescarVistas1.png
+		..\..\..\Doc\img\mRelacionFolioSIPMX.png = ..\..\..\Doc\img\mRelacionFolioSIPMX.png
+		..\..\..\Doc\img\mRelacionFolioSIPMX1.png = ..\..\..\Doc\img\mRelacionFolioSIPMX1.png
+		..\..\..\Doc\img\mReportes.png = ..\..\..\Doc\img\mReportes.png
+		..\..\..\Doc\img\mReportesDet.png = ..\..\..\Doc\img\mReportesDet.png
+		..\..\..\Doc\img\mReportesDet1.png = ..\..\..\Doc\img\mReportesDet1.png
+		..\..\..\Doc\img\mSalir.png = ..\..\..\Doc\img\mSalir.png
+		..\..\..\Doc\img\Organismoejercicio.png = ..\..\..\Doc\img\Organismoejercicio.png
+		..\..\..\Doc\img\Organismoejercicio0.png = ..\..\..\Doc\img\Organismoejercicio0.png
+		..\..\..\Doc\img\PadronContribuyentes00.png = ..\..\..\Doc\img\PadronContribuyentes00.png
+		..\..\..\Doc\img\PadronContribuyentes01.png = ..\..\..\Doc\img\PadronContribuyentes01.png
+		..\..\..\Doc\img\PadronContribuyentes02.png = ..\..\..\Doc\img\PadronContribuyentes02.png
+		..\..\..\Doc\img\PadronIdentidad00.png = ..\..\..\Doc\img\PadronIdentidad00.png
+		..\..\..\Doc\img\PadronIdentidad01.png = ..\..\..\Doc\img\PadronIdentidad01.png
+		..\..\..\Doc\img\PadronIdentidad02.png = ..\..\..\Doc\img\PadronIdentidad02.png
+		..\..\..\Doc\img\Panxea_new-logo-blanco.png = ..\..\..\Doc\img\Panxea_new-logo-blanco.png
+		..\..\..\Doc\img\Panxea_new-logo-negro.png = ..\..\..\Doc\img\Panxea_new-logo-negro.png
+		..\..\..\Doc\img\tips.png = ..\..\..\Doc\img\tips.png
+		..\..\..\Doc\img\TramitesPresupuestales00.png = ..\..\..\Doc\img\TramitesPresupuestales00.png
+		..\..\..\Doc\img\TramitesPresupuestales01.png = ..\..\..\Doc\img\TramitesPresupuestales01.png
+		..\..\..\Doc\img\TramitesPresupuestales02.png = ..\..\..\Doc\img\TramitesPresupuestales02.png
+		..\..\..\Doc\img\Up.png = ..\..\..\Doc\img\Up.png
+		..\..\..\Doc\img\User Menu Female_64px.png = ..\..\..\Doc\img\User Menu Female_64px.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{41A36A7F-FA1B-4C4E-AA75-5563C4B69F6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{705E179D-C298-4DC2-8EF4-9EBA68E68C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705E179D-C298-4DC2-8EF4-9EBA68E68C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705E179D-C298-4DC2-8EF4-9EBA68E68C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705E179D-C298-4DC2-8EF4-9EBA68E68C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B61CEC0-074E-4A18-8BF1-6657510A9447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B61CEC0-074E-4A18-8BF1-6657510A9447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B61CEC0-074E-4A18-8BF1-6657510A9447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B61CEC0-074E-4A18-8BF1-6657510A9447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0FE8E14-80E9-4316-853C-EAC2101C7965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0FE8E14-80E9-4316-853C-EAC2101C7965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0FE8E14-80E9-4316-853C-EAC2101C7965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0FE8E14-80E9-4316-853C-EAC2101C7965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24BEEE6-B2B7-4A1B-ACCA-361D15C16E19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24BEEE6-B2B7-4A1B-ACCA-361D15C16E19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24BEEE6-B2B7-4A1B-ACCA-361D15C16E19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24BEEE6-B2B7-4A1B-ACCA-361D15C16E19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4137D63-3CA9-468A-8355-A11F2EC5F2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4137D63-3CA9-468A-8355-A11F2EC5F2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4137D63-3CA9-468A-8355-A11F2EC5F2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4137D63-3CA9-468A-8355-A11F2EC5F2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA4B38F9-BF27-4663-B669-54282EA204A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4B38F9-BF27-4663-B669-54282EA204A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4B38F9-BF27-4663-B669-54282EA204A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4B38F9-BF27-4663-B669-54282EA204A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{314D6FE5-DEF5-4619-B131-A0043EDE345A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{314D6FE5-DEF5-4619-B131-A0043EDE345A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{314D6FE5-DEF5-4619-B131-A0043EDE345A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{314D6FE5-DEF5-4619-B131-A0043EDE345A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4830F73-7C06-49A5-99BA-02BD3AC9FC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4830F73-7C06-49A5-99BA-02BD3AC9FC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4830F73-7C06-49A5-99BA-02BD3AC9FC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4830F73-7C06-49A5-99BA-02BD3AC9FC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{753756AE-2DC9-46DB-9A41-770E49BBDC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{753756AE-2DC9-46DB-9A41-770E49BBDC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{753756AE-2DC9-46DB-9A41-770E49BBDC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{753756AE-2DC9-46DB-9A41-770E49BBDC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5BF1173-C752-429A-811A-2064DA2814DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5BF1173-C752-429A-811A-2064DA2814DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5BF1173-C752-429A-811A-2064DA2814DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5BF1173-C752-429A-811A-2064DA2814DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E1FA3DD-7B6F-4FA5-80C5-5BE68CE31BE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E1FA3DD-7B6F-4FA5-80C5-5BE68CE31BE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E1FA3DD-7B6F-4FA5-80C5-5BE68CE31BE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E1FA3DD-7B6F-4FA5-80C5-5BE68CE31BE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA666AC-096F-4732-A7FC-3DB696A48D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA666AC-096F-4732-A7FC-3DB696A48D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA666AC-096F-4732-A7FC-3DB696A48D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA666AC-096F-4732-A7FC-3DB696A48D07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C84B4F-BE53-4E53-9695-45CA626A9F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C84B4F-BE53-4E53-9695-45CA626A9F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C84B4F-BE53-4E53-9695-45CA626A9F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C84B4F-BE53-4E53-9695-45CA626A9F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC54E6C-3AEA-414C-AAA2-8E0F286FFC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC54E6C-3AEA-414C-AAA2-8E0F286FFC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC54E6C-3AEA-414C-AAA2-8E0F286FFC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC54E6C-3AEA-414C-AAA2-8E0F286FFC07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD91B481-8F32-4248-9F79-384399CD212E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD91B481-8F32-4248-9F79-384399CD212E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD91B481-8F32-4248-9F79-384399CD212E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD91B481-8F32-4248-9F79-384399CD212E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187EE480-F327-49C8-842E-F0FB2CB1A795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187EE480-F327-49C8-842E-F0FB2CB1A795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187EE480-F327-49C8-842E-F0FB2CB1A795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187EE480-F327-49C8-842E-F0FB2CB1A795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2EC119A-2DD5-4085-A408-876F7F6CEE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EC119A-2DD5-4085-A408-876F7F6CEE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EC119A-2DD5-4085-A408-876F7F6CEE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EC119A-2DD5-4085-A408-876F7F6CEE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{761AE5ED-2066-4848-B52D-05CB825A020E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{761AE5ED-2066-4848-B52D-05CB825A020E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{761AE5ED-2066-4848-B52D-05CB825A020E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{761AE5ED-2066-4848-B52D-05CB825A020E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C3FBA0-B8D8-4921-8C01-7F1B0EAB31D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C3FBA0-B8D8-4921-8C01-7F1B0EAB31D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C3FBA0-B8D8-4921-8C01-7F1B0EAB31D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C3FBA0-B8D8-4921-8C01-7F1B0EAB31D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC4FF6D-A315-4959-98AA-957294251A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC4FF6D-A315-4959-98AA-957294251A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC4FF6D-A315-4959-98AA-957294251A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC4FF6D-A315-4959-98AA-957294251A83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13315BB8-58A6-4217-8A00-08A97B95AE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13315BB8-58A6-4217-8A00-08A97B95AE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13315BB8-58A6-4217-8A00-08A97B95AE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13315BB8-58A6-4217-8A00-08A97B95AE20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{705E179D-C298-4DC2-8EF4-9EBA68E68C58} = {7131D738-DDE1-4670-9294-23C0054E8327}
+		{9B61CEC0-074E-4A18-8BF1-6657510A9447} = {F36835C1-D38C-4B09-B9C6-53C2B1A24ADD}
+		{C0FE8E14-80E9-4316-853C-EAC2101C7965} = {859D965C-5900-479C-9261-D0D6AB71B1CD}
+		{F24BEEE6-B2B7-4A1B-ACCA-361D15C16E19} = {73D65854-ACC7-41BE-862E-C2FF885A013B}
+		{F4137D63-3CA9-468A-8355-A11F2EC5F2BD} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{AA4B38F9-BF27-4663-B669-54282EA204A6} = {7131D738-DDE1-4670-9294-23C0054E8327}
+		{314D6FE5-DEF5-4619-B131-A0043EDE345A} = {7131D738-DDE1-4670-9294-23C0054E8327}
+		{E4830F73-7C06-49A5-99BA-02BD3AC9FC58} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{753756AE-2DC9-46DB-9A41-770E49BBDC05} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{E5BF1173-C752-429A-811A-2064DA2814DE} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{3E1FA3DD-7B6F-4FA5-80C5-5BE68CE31BE2} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{5AA666AC-096F-4732-A7FC-3DB696A48D07} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{66C84B4F-BE53-4E53-9695-45CA626A9F2E} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{ADC54E6C-3AEA-414C-AAA2-8E0F286FFC07} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{CD91B481-8F32-4248-9F79-384399CD212E} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{187EE480-F327-49C8-842E-F0FB2CB1A795} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{F2EC119A-2DD5-4085-A408-876F7F6CEE45} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{761AE5ED-2066-4848-B52D-05CB825A020E} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{EFA8484B-E25E-4D89-9AE3-9FBA73C82680} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{87C3FBA0-B8D8-4921-8C01-7F1B0EAB31D4} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{EEC4FF6D-A315-4959-98AA-957294251A83} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{13315BB8-58A6-4217-8A00-08A97B95AE20} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{7131D738-DDE1-4670-9294-23C0054E8327} = {BF9540B5-E24D-4927-BC74-DCD89EB221DE}
+		{E4DF27F9-69E5-428A-8F91-D87C6E025FD7} = {18558117-FEAD-43A4-9ED2-97F19A524686}
+		{45961DED-4960-4D12-A5DC-D1EC073EABBF} = {E4DF27F9-69E5-428A-8F91-D87C6E025FD7}
+		{22D9917E-4348-4883-8FE1-925BFA1DA2B6} = {E4DF27F9-69E5-428A-8F91-D87C6E025FD7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FAD0B87-8C34-4788-A1B4-D638A793942D}
+	EndGlobalSection
+EndGlobal

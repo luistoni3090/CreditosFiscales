@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA4B38F9-BF27-4663-B669-54282EA204A6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Px_Controles</RootNamespace>
+    <AssemblyName>Px-Controles</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Panxea.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Colors\BasisColors.cs" />
+    <Compile Include="Colors\BorderColors.cs" />
+    <Compile Include="Colors\ColorEnums.cs" />
+    <Compile Include="Colors\ColorExt.cs" />
+    <Compile Include="Colors\GradientColors.cs" />
+    <Compile Include="Colors\LineColors.cs" />
+    <Compile Include="Colors\StatusColors.cs" />
+    <Compile Include="Colors\TableColors.cs" />
+    <Compile Include="Colors\TextColors.cs" />
+    <Compile Include="Controls\Checkbox\UICheckBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Checkbox\UICheckBox.Designer.cs">
+      <DependentUpon>UICheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ComboBox\UICombox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ComboBox\UICombox.Designer.cs">
+      <DependentUpon>UICombox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ComboBox\UIComboxGridPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ComboBox\UIComboxGridPanel.Designer.cs">
+      <DependentUpon>UIComboxGridPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DataGridView\DataGridViewCellEntity.cs" />
+    <Compile Include="Controls\DataGridView\DataGridViewCellEventArgs.cs" />
+    <Compile Include="Controls\DataGridView\DataGridViewCellEventHandler.cs" />
+    <Compile Include="Controls\DataGridView\DataGridViewColumnEntity.cs" />
+    <Compile Include="Controls\DataGridView\DataGridViewRowCustomEventArgs.cs" />
+    <Compile Include="Controls\DataGridView\IDataGridViewCustomCell.cs" />
+    <Compile Include="Controls\DataGridView\IDataGridViewRow.cs" />
+    <Compile Include="Controls\DataGridView\UIDataGridViewTreeRow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridView\UIDataGridViewTreeRow.Designer.cs">
+      <DependentUpon>UIDataGridViewTreeRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DataGridView\UIDataGridViewRow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridView\UIDataGridViewRow.Designer.cs">
+      <DependentUpon>UIDataGridViewRow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DataGridView\UIDataGridView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridView\UIDataGridView.Designer.cs">
+      <DependentUpon>UIDataGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DataGridView\UIDataGridViewTmp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridView\UIDataGridViewTmp.Designer.cs">
+      <DependentUpon>UIDataGridViewTmp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\NavigationMenu\NavigationMenuItem.cs" />
+    <Compile Include="Controls\NavigationMenu\NavigationMenuItemBase.cs" />
+    <Compile Include="Controls\NavigationMenu\NavigationMenuItemExt.cs" />
+    <Compile Include="Controls\NavigationMenu\UINavigationMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NavigationMenu\UINavigationMenu.Designer.cs">
+      <DependentUpon>UINavigationMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Split\UISplitLine_H.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Split\UISplitLine_H.Designer.cs">
+      <DependentUpon>UISplitLine_H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Split\UISplitLine_V.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Split\UISplitLine_V.Designer.cs">
+      <DependentUpon>UISplitLine_V.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tab\UITabControlExt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\Tab\UITabControlExt.Designer.cs">
+      <DependentUpon>UITabControlExt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Treeview\UITreeViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\UIControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UIControlBase.Designer.cs">
+      <DependentUpon>UIControlBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmAnchor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmAnchor.Designer.cs">
+      <DependentUpon>FrmAnchor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmAnchorTips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmAnchorTips.Designer.cs">
+      <DependentUpon>FrmAnchorTips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmBase.Designer.cs">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmTransparent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmTransparent.Designer.cs">
+      <DependentUpon>FrmTransparent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmWaiting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmWaiting.Designer.cs">
+      <DependentUpon>FrmWaiting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Msg\MessageBoxMX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Msg\MessageBoxMX.Designer.cs">
+      <DependentUpon>MessageBoxMX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\ControlHelper.cs" />
+    <Compile Include="Helpers\Ext.cs" />
+    <Compile Include="Helpers\GraphDirection.cs" />
+    <Compile Include="Helpers\MouseHook.cs" />
+    <Compile Include="Helpers\NativeMethods.cs" />
+    <Compile Include="Helpers\TextInputType.cs" />
+    <Compile Include="Helpers\WindowsHook.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Panxea.ico" />
+    <None Include="Resources\caret-right.png" />
+    <None Include="Resources\caret-down.png" />
+    <None Include="Resources\checkbox10.png" />
+    <None Include="Resources\checkbox1.png" />
+    <None Include="Resources\checkbox0.png" />
+    <None Include="Resources\checkbox00.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Controls\Checkbox\UICheckBox.resx">
+      <DependentUpon>UICheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ComboBox\UICombox.resx">
+      <DependentUpon>UICombox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridView\UIDataGridViewTreeRow.resx">
+      <DependentUpon>UIDataGridViewTreeRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridView\UIDataGridViewRow.resx">
+      <DependentUpon>UIDataGridViewRow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridView\UIDataGridView.resx">
+      <DependentUpon>UIDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridView\UIDataGridViewTmp.resx">
+      <DependentUpon>UIDataGridViewTmp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NavigationMenu\UINavigationMenu.resx">
+      <DependentUpon>UINavigationMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Split\UISplitLine_H.resx">
+      <DependentUpon>UISplitLine_H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Split\UISplitLine_V.resx">
+      <DependentUpon>UISplitLine_V.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmAnchor.resx">
+      <DependentUpon>FrmAnchor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmAnchorTips.resx">
+      <DependentUpon>FrmAnchorTips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmBase.resx">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmTransparent.resx">
+      <DependentUpon>FrmTransparent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmWaiting.resx">
+      <DependentUpon>FrmWaiting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Msg\MessageBoxMX.resx">
+      <DependentUpon>MessageBoxMX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tips.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

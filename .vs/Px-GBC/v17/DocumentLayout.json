@@ -1,0 +1,179 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Proyecto-Baja-California\\Px-GBC_main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:1:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\proyecto-baja-california\\px-gbc_main\\px-creditosfiscales\\catalogos\\controles\\ctrlresponsablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\controles\\ctrlresponsablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\proyecto-baja-california\\px-gbc_main\\px-creditosfiscales\\catalogos\\frmresposablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\frmresposablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\proyecto-baja-california\\px-gbc_main\\px-creditosfiscales\\catalogos\\controles\\ctrlresponsablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\controles\\ctrlresponsablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\proyecto-baja-california\\px-gbc_main\\px-creditosfiscales\\catalogos\\controles\\ctrlresponsablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\controles\\ctrlresponsablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\proyecto-baja-california\\px-gbc_main\\px-creditosfiscales\\catalogos\\frmresposablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\frmresposablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\proyecto-baja-california\\px-gbc_main\\px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\proyecto-baja-california\\px-gbc_main\\px-creditosfiscales\\catalogos\\frmresposablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\frmresposablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 251,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmResposableSolidario.cs [Design]",
+              "DocumentMoniker": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
+              "ToolTip": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs [Design]",
+              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:22:50.875Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ctrlResponsableSolidario.cs [Design]",
+              "DocumentMoniker": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
+              "ToolTip": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs [Design]",
+              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:46:55.201Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmResposableSolidario.cs",
+              "DocumentMoniker": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
+              "ToolTip": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
+              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAhwJYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:22:53.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ctrlResponsableSolidario.cs",
+              "DocumentMoniker": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
+              "ToolTip": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
+              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAjwFwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:45:30.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "xMain.cs",
+              "DocumentMoniker": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\xMain.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\xMain.cs",
+              "ToolTip": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\xMain.cs",
+              "RelativeToolTip": "Px-CreditosFiscales\\xMain.cs",
+              "ViewState": "AQIAAMMAAAAAAAAAAAAkwNgAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:12:53.104Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 206,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmResposableSolidario.cs",
+              "DocumentMoniker": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
+              "ToolTip": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
+              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAUwJIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T17:50:37.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ctrlResponsableSolidario.cs",
+              "DocumentMoniker": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
+              "ToolTip": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
+              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
+              "ViewState": "AQIAAIgBAAAAAAAAAAAUwJABAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T23:58:00.059Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

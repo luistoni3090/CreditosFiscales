@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Px_Negocio</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyVersion>1.19.19.19</AssemblyVersion>
+    <FileVersion>1.19.19.19</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Cajas\" />
+    <Folder Include="CajasServicioPublico\" />
+    <Folder Include="InversionPublica\" />
+    <Folder Include="Contabilidad\" />
+    <Folder Include="ConsiliacionBancaria\" />
+    <Folder Include="Egresos\" />
+    <Folder Include="BienesMuebles\" />
+    <Folder Include="TramitesPresupuestales\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Px-DBFactory\Px-DBFactory.csproj" />
+  </ItemGroup>
+
+</Project>
