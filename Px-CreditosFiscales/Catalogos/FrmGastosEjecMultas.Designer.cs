@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmGastosEjecMultas));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSecuencia));
             this.panTittle = new System.Windows.Forms.Panel();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.picIco = new System.Windows.Forms.PictureBox();
@@ -278,7 +278,7 @@
             this.panMenu.Location = new System.Drawing.Point(0, 0);
             this.panMenu.Name = "panMenu";
             this.panMenu.Size = new System.Drawing.Size(982, 35);
-            this.panMenu.TabIndex = 8;
+            this.panMenu.TabIndex = 7;
             // 
             // btnmnuConsulta
             // 
@@ -289,12 +289,14 @@
             this.btnmnuConsulta.FlatAppearance.BorderSize = 0;
             this.btnmnuConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmnuConsulta.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmnuConsulta.ForeColor = System.Drawing.Color.White;
             this.btnmnuConsulta.Image = ((System.Drawing.Image)(resources.GetObject("btnmnuConsulta.Image")));
             this.btnmnuConsulta.Location = new System.Drawing.Point(246, 0);
             this.btnmnuConsulta.Name = "btnmnuConsulta";
             this.btnmnuConsulta.Size = new System.Drawing.Size(35, 35);
             this.btnmnuConsulta.TabIndex = 23;
             this.btnmnuConsulta.Text = "&c";
+            this.btnmnuConsulta.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.btnmnuConsulta.UseVisualStyleBackColor = false;
             // 
             // btnmnuFiltros
@@ -306,12 +308,14 @@
             this.btnmnuFiltros.FlatAppearance.BorderSize = 0;
             this.btnmnuFiltros.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmnuFiltros.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmnuFiltros.ForeColor = System.Drawing.Color.White;
             this.btnmnuFiltros.Image = ((System.Drawing.Image)(resources.GetObject("btnmnuFiltros.Image")));
             this.btnmnuFiltros.Location = new System.Drawing.Point(211, 0);
             this.btnmnuFiltros.Name = "btnmnuFiltros";
             this.btnmnuFiltros.Size = new System.Drawing.Size(35, 35);
             this.btnmnuFiltros.TabIndex = 21;
-            this.btnmnuFiltros.Text = "&";
+            this.btnmnuFiltros.Text = "&f";
+            this.btnmnuFiltros.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.btnmnuFiltros.UseVisualStyleBackColor = false;
             // 
             // btnmnuActualiza
@@ -323,12 +327,14 @@
             this.btnmnuActualiza.FlatAppearance.BorderSize = 0;
             this.btnmnuActualiza.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmnuActualiza.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmnuActualiza.ForeColor = System.Drawing.Color.White;
             this.btnmnuActualiza.Image = ((System.Drawing.Image)(resources.GetObject("btnmnuActualiza.Image")));
             this.btnmnuActualiza.Location = new System.Drawing.Point(176, 0);
             this.btnmnuActualiza.Name = "btnmnuActualiza";
             this.btnmnuActualiza.Size = new System.Drawing.Size(35, 35);
             this.btnmnuActualiza.TabIndex = 20;
             this.btnmnuActualiza.Text = "&a";
+            this.btnmnuActualiza.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.btnmnuActualiza.UseVisualStyleBackColor = false;
             // 
             // uiSplitLine_V1
@@ -352,12 +358,14 @@
             this.btnmnuBorra.FlatAppearance.BorderSize = 0;
             this.btnmnuBorra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmnuBorra.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmnuBorra.ForeColor = System.Drawing.Color.White;
             this.btnmnuBorra.Image = ((System.Drawing.Image)(resources.GetObject("btnmnuBorra.Image")));
             this.btnmnuBorra.Location = new System.Drawing.Point(140, 0);
             this.btnmnuBorra.Name = "btnmnuBorra";
             this.btnmnuBorra.Size = new System.Drawing.Size(35, 35);
             this.btnmnuBorra.TabIndex = 18;
             this.btnmnuBorra.Text = "&b";
+            this.btnmnuBorra.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.btnmnuBorra.UseVisualStyleBackColor = false;
             // 
             // btnmnuGuarda
@@ -369,12 +377,14 @@
             this.btnmnuGuarda.FlatAppearance.BorderSize = 0;
             this.btnmnuGuarda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmnuGuarda.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmnuGuarda.ForeColor = System.Drawing.Color.White;
             this.btnmnuGuarda.Image = ((System.Drawing.Image)(resources.GetObject("btnmnuGuarda.Image")));
             this.btnmnuGuarda.Location = new System.Drawing.Point(105, 0);
             this.btnmnuGuarda.Name = "btnmnuGuarda";
             this.btnmnuGuarda.Size = new System.Drawing.Size(35, 35);
             this.btnmnuGuarda.TabIndex = 17;
             this.btnmnuGuarda.Text = "&g";
+            this.btnmnuGuarda.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.btnmnuGuarda.UseVisualStyleBackColor = false;
             // 
             // btnmnuActualizaDet
@@ -386,12 +396,14 @@
             this.btnmnuActualizaDet.FlatAppearance.BorderSize = 0;
             this.btnmnuActualizaDet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmnuActualizaDet.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmnuActualizaDet.ForeColor = System.Drawing.Color.White;
             this.btnmnuActualizaDet.Image = ((System.Drawing.Image)(resources.GetObject("btnmnuActualizaDet.Image")));
             this.btnmnuActualizaDet.Location = new System.Drawing.Point(70, 0);
             this.btnmnuActualizaDet.Name = "btnmnuActualizaDet";
             this.btnmnuActualizaDet.Size = new System.Drawing.Size(35, 35);
             this.btnmnuActualizaDet.TabIndex = 10;
-            this.btnmnuActualizaDet.Text = "&d";
+            this.btnmnuActualizaDet.Text = "&r";
+            this.btnmnuActualizaDet.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.btnmnuActualizaDet.UseVisualStyleBackColor = false;
             // 
             // uiSplitLine_V2
@@ -414,12 +426,14 @@
             this.btnmnuImprime.FlatAppearance.BorderSize = 0;
             this.btnmnuImprime.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmnuImprime.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmnuImprime.ForeColor = System.Drawing.Color.White;
             this.btnmnuImprime.Image = ((System.Drawing.Image)(resources.GetObject("btnmnuImprime.Image")));
             this.btnmnuImprime.Location = new System.Drawing.Point(912, 0);
             this.btnmnuImprime.Name = "btnmnuImprime";
             this.btnmnuImprime.Size = new System.Drawing.Size(35, 35);
             this.btnmnuImprime.TabIndex = 7;
             this.btnmnuImprime.Text = "&i";
+            this.btnmnuImprime.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.btnmnuImprime.UseVisualStyleBackColor = false;
             // 
             // btnmnuAyuda
@@ -431,12 +445,14 @@
             this.btnmnuAyuda.FlatAppearance.BorderSize = 0;
             this.btnmnuAyuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmnuAyuda.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmnuAyuda.ForeColor = System.Drawing.Color.White;
             this.btnmnuAyuda.Image = ((System.Drawing.Image)(resources.GetObject("btnmnuAyuda.Image")));
             this.btnmnuAyuda.Location = new System.Drawing.Point(947, 0);
             this.btnmnuAyuda.Name = "btnmnuAyuda";
             this.btnmnuAyuda.Size = new System.Drawing.Size(35, 35);
             this.btnmnuAyuda.TabIndex = 6;
             this.btnmnuAyuda.Text = "&h";
+            this.btnmnuAyuda.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.btnmnuAyuda.UseVisualStyleBackColor = false;
             // 
             // btnmnuEdita
@@ -448,12 +464,14 @@
             this.btnmnuEdita.FlatAppearance.BorderSize = 0;
             this.btnmnuEdita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmnuEdita.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmnuEdita.ForeColor = System.Drawing.Color.White;
             this.btnmnuEdita.Image = ((System.Drawing.Image)(resources.GetObject("btnmnuEdita.Image")));
             this.btnmnuEdita.Location = new System.Drawing.Point(35, 0);
             this.btnmnuEdita.Name = "btnmnuEdita";
             this.btnmnuEdita.Size = new System.Drawing.Size(35, 35);
             this.btnmnuEdita.TabIndex = 3;
             this.btnmnuEdita.Text = "&e";
+            this.btnmnuEdita.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.btnmnuEdita.UseVisualStyleBackColor = false;
             // 
             // btnmnuNuevo
@@ -465,12 +483,14 @@
             this.btnmnuNuevo.FlatAppearance.BorderSize = 0;
             this.btnmnuNuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnmnuNuevo.Font = new System.Drawing.Font("Microsoft Sans Serif", 1.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnmnuNuevo.ForeColor = System.Drawing.Color.White;
             this.btnmnuNuevo.Image = ((System.Drawing.Image)(resources.GetObject("btnmnuNuevo.Image")));
             this.btnmnuNuevo.Location = new System.Drawing.Point(0, 0);
             this.btnmnuNuevo.Name = "btnmnuNuevo";
             this.btnmnuNuevo.Size = new System.Drawing.Size(35, 35);
             this.btnmnuNuevo.TabIndex = 2;
             this.btnmnuNuevo.Text = "&n";
+            this.btnmnuNuevo.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             this.btnmnuNuevo.UseVisualStyleBackColor = false;
             // 
             // FrmGastosEjecMultas
@@ -511,6 +531,12 @@
         private System.Windows.Forms.Panel panFiltros;
         private System.Windows.Forms.TextBox txtBusca;
         private System.Windows.Forms.Label label1;
+        private Px_Controles.Controls.Tab.UITabControlExt uiTabControlExt1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.Panel panCatalogo;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox comboTipo;
         private System.Windows.Forms.Panel panMenu;
         private System.Windows.Forms.Button btnmnuConsulta;
         private System.Windows.Forms.Button btnmnuFiltros;
@@ -524,11 +550,5 @@
         private System.Windows.Forms.Button btnmnuAyuda;
         private System.Windows.Forms.Button btnmnuEdita;
         private System.Windows.Forms.Button btnmnuNuevo;
-        private Px_Controles.Controls.Tab.UITabControlExt uiTabControlExt1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.Panel panCatalogo;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboTipo;
     }
 }

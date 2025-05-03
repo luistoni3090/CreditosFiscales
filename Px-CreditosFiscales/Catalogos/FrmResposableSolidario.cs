@@ -9,6 +9,7 @@ using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
+using Px_CreditosFiscales.Utiles.Formas;
 using Px_CreditosFiscales.Utiles.Generales;
 using Px_CreditosFiscales.Catalogos.Controles;
 using static Px_CreditosFiscales.Utiles.Emun.Enumerados;
@@ -23,7 +24,7 @@ using Px_Utiles.Models.Sistemas.ConciliacionBancaria.Catalogos;
 
 namespace Px_CreditosFiscales.Catalogos
 {
-    public partial class FrmResposableSolidario: Form
+    public partial class FrmResposableSolidario: FormaGen
     {
         public xMain _Main { get; set; }
 

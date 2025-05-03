@@ -26,6 +26,7 @@ using Px_CreditosFiscales.Utiles.Generales;
 using Px_CreditosFiscales.Catalogos.Controles;
 
 using static Px_CreditosFiscales.Utiles.Emun.Enumerados;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Px_CreditosFiscales
 {
@@ -208,7 +209,7 @@ namespace Px_CreditosFiscales
                     var oFrmC04 = await AbrirFormulario<FrmGarantias>(); oFrmC04._Main = this; break;
 
                 case "Gastos Ejec. y Multas":
-                    var oFrmC05 = await AbrirFormulario<FrmGastosEjecMultas>(); oFrmC05._Main = this; break;
+                    var oFrmC05 = await AbrirFormulario<FrmSecuencia>(); oFrmC05._Main = this; break;
                     
                 case "Catálogo de INP":
                    var oFrmC06 = await AbrirFormulario<FrmINPC>(); oFrmC06._Main = this; break;
@@ -216,7 +217,32 @@ namespace Px_CreditosFiscales
                 case "Responsable Solidario":
                     var oFrmC07 = await AbrirFormulario<FrmResposableSolidario>(); oFrmC07._Main = this; break;
 
+                case "Secuencia":
+                    var oFrmC08 = await AbrirFormulario<FrmSecuencia>(); oFrmC08._Main = this; break;
 
+                case "Status del Bien":
+                    var oFrmC09 = await AbrirFormulario<FrmStatusbien>(); oFrmC09._Main = this; break;
+
+                case "Status del Crédito":
+                    var oFrmC10 = await AbrirFormulario<FrmStatusCredito>(); oFrmC10._Main = this; break;
+
+                case "Status de Notificación":
+                    var oFrmC11 = await AbrirFormulario<FrmStatusNotificacion>(); oFrmC11._Main = this; break;
+
+                case "UDIS":
+                    var oFrmC12 = await AbrirFormulario<FrmUDIS>(); oFrmC12._Main = this; break;
+
+                case "Bodegas":
+                    var oFrmC13 = await AbrirFormulario<FrmBodegas>(); oFrmC13._Main = this; break;
+
+                case "Crédito - Concepto":
+                    var oFrmC14 = await AbrirFormulario<FrmCreditoConcepto>(); oFrmC14._Main = this; break;
+
+                case "Dias Inhábiles":
+                    var oFrmC15 = await AbrirFormulario< FrmDiasInhabiles > (); oFrmC15._Main = this; break;
+
+                case "Motivos Cancelación":
+                    var oFrmC16 = await AbrirFormulario<FrmMotivosCancelacion>(); oFrmC16._Main = this; break;
 
             }
 
@@ -349,6 +375,16 @@ namespace Px_CreditosFiscales
                 oNodo3.Add(new TreeNode("  Gastos Ejec. y Multas", 37, 37));
                 oNodo3.Add(new TreeNode("  Catálogo de INP", 37, 37));
                 oNodo3.Add(new TreeNode("  Responsable Solidario", 37, 37));
+                oNodo3.Add(new TreeNode("  Secuencia", 37, 37));
+                oNodo3.Add(new TreeNode("  Status del Bien", 37, 37));
+                oNodo3.Add(new TreeNode("  Status del Crédito", 37, 37));
+                oNodo3.Add(new TreeNode("  Status de Notificación", 37, 37));
+                oNodo3.Add(new TreeNode("  UDIS", 37, 37));
+                oNodo3.Add(new TreeNode("  Bodegas", 37, 37));
+                oNodo3.Add(new TreeNode("  Crédito - Concepto", 37, 37));
+                oNodo3.Add(new TreeNode("  Dias Inhábiles", 37, 37));
+                oNodo3.Add(new TreeNode("  Motivos Cancelación", 37, 37));
+
 
                 /*
                 oNodo3.Add(new TreeNode("  Responsable Solidario", 37, 37));

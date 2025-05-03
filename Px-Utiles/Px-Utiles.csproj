@@ -109,6 +109,8 @@
     <Compile Include="Models\Sistemas\Contabilidad\Catalogos\eTIPO_POLIZA.cs" />
     <Compile Include="Models\General\eRequest.cs" />
     <Compile Include="Models\General\eResponse.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eBODEGAS.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eSECUENCIA.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eRESPONSABLESOLIDARIO.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eINPC.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eGASTOSEJECMULTAS.cs" />
@@ -116,6 +118,13 @@
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eFINANCIAMIENTORECARGOS.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eDESCUENTOS.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eGRUPOCONCEPTO.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eCREDITO_CONCEPTO.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eDIASINHABILES.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eUDIS.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eSTATUSNOTIFICACION.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eSTATUSCREDITO.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eSTATUSBIEN.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eMOTIVOSCANCELACION.cs" />
     <Compile Include="Models\Sistemas\General\eLlaveValor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicio\WSServicio.cs" />

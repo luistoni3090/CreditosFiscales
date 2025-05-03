@@ -39,6 +39,12 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.InteropServices.APIs">
+      <HintPath>..\..\Template-Crud-Contabilidad\Px-GBC\libs\System.Runtime.InteropServices.APIs.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.TreeListView">
+      <HintPath>..\..\Template-Crud-Contabilidad\Px-GBC\libs\System.Windows.Forms.TreeListView.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />

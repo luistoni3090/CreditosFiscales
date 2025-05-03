@@ -1,34 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Proyecto-Baja-California\\CreditosFiscales\\",
+  "WorkspaceRootPath": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:1:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\proyecto-baja-california\\creditosfiscales\\px-creditosfiscales\\catalogos\\controles\\ctrlresponsablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:1:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\controles\\ctrlresponsablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\catalogos\\otros\\frmmotivoscancelacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\otros\\frmmotivoscancelacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:1:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|C:\\Proyecto-Baja-California\\CreditosFiscales\\px-creditosfiscales\\catalogos\\frmresposablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:1:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\frmresposablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\catalogos\\otros\\frmmotivoscancelacion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\otros\\frmmotivoscancelacion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|C:\\Proyecto-Baja-California\\CreditosFiscales\\px-creditosfiscales\\catalogos\\controles\\ctrlresponsablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\controles\\ctrlresponsablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:2:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\proyecto-baja-california\\creditosfiscales\\px-creditosfiscales\\catalogos\\controles\\ctrlresponsablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:2:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\controles\\ctrlresponsablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:2:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|C:\\Proyecto-Baja-California\\CreditosFiscales\\px-creditosfiscales\\catalogos\\frmresposablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:2:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\frmresposablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|C:\\Proyecto-Baja-California\\CreditosFiscales\\px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|C:\\Proyecto-Baja-California\\CreditosFiscales\\px-creditosfiscales\\catalogos\\frmresposablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\frmresposablesolidario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{314D6FE5-DEF5-4619-B131-A0043EDE345A}|Px-Utiles\\Px-Utiles.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-utiles\\models\\sistemas\\creditosfiscales\\catalogos\\emotivoscancelacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{314D6FE5-DEF5-4619-B131-A0043EDE345A}|Px-Utiles\\Px-Utiles.csproj|solutionrelative:px-utiles\\models\\sistemas\\creditosfiscales\\catalogos\\emotivoscancelacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,8 +25,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 251,
-          "SelectedChildIndex": 9,
+          "DockedHeight": 324,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,69 +54,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmResposableSolidario.cs [Design]",
-              "DocumentMoniker": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
-              "ToolTip": "C:\\Proyecto-Baja-California\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs [Design]",
-              "RelativeToolTip": "..\\Px-GBC_main\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "eMOTIVOSCANCELACION.cs",
+              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-Utiles\\Models\\Sistemas\\CreditosFiscales\\Catalogos\\eMOTIVOSCANCELACION.cs",
+              "RelativeDocumentMoniker": "Px-Utiles\\Models\\Sistemas\\CreditosFiscales\\Catalogos\\eMOTIVOSCANCELACION.cs",
+              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-Utiles\\Models\\Sistemas\\CreditosFiscales\\Catalogos\\eMOTIVOSCANCELACION.cs",
+              "RelativeToolTip": "Px-Utiles\\Models\\Sistemas\\CreditosFiscales\\Catalogos\\eMOTIVOSCANCELACION.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:22:50.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ctrlResponsableSolidario.cs [Design]",
-              "DocumentMoniker": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
-              "ToolTip": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs [Design]",
-              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:46:55.201Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmResposableSolidario.cs",
-              "DocumentMoniker": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
-              "ToolTip": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
-              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAhwJYAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:22:53.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ctrlResponsableSolidario.cs",
-              "DocumentMoniker": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
-              "ToolTip": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
-              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAYwEYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:45:30.514Z",
+              "WhenOpened": "2025-05-03T01:23:03.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "xMain.cs",
-              "DocumentMoniker": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\xMain.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\xMain.cs",
-              "ToolTip": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\xMain.cs",
-              "RelativeToolTip": "Px-CreditosFiscales\\xMain.cs",
-              "ViewState": "AQIAAMMAAAAAAAAAAAAkwNgAAABOAAAA",
+              "DocumentIndex": 1,
+              "Title": "FrmMotivosCancelacion.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.Designer.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.Designer.cs",
+              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.Designer.cs",
+              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T17:12:53.104Z"
+              "WhenOpened": "2025-05-02T23:35:54.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmMotivosCancelacion.cs",
+              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.cs",
+              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.cs",
+              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.cs",
+              "ViewState": "AQIAAE4BAAAAAAAAAAAIwFsBAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T23:35:47.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "xMain.cs",
+              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\xMain.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\xMain.cs",
+              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\xMain.cs",
+              "RelativeToolTip": "Px-CreditosFiscales\\xMain.cs",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAowPQAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T15:52:21.422Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 206,
-          "SelectedChildIndex": 4,
+          "DockedHeight": 133,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -141,31 +121,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmResposableSolidario.cs",
-              "DocumentMoniker": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
-              "ToolTip": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
-              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\FrmResposableSolidario.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAAAUwJIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T17:50:37.267Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ctrlResponsableSolidario.cs",
-              "DocumentMoniker": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
-              "ToolTip": "C:\\Proyecto-Baja-California\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
-              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\Controles\\ctrlResponsableSolidario.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAUwEYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T23:58:00.059Z",
-              "EditorCaption": ""
             }
           ]
         }

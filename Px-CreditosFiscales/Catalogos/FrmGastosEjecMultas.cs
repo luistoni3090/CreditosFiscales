@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Drawing;
 using System.Windows.Forms;
-using System.Configuration;
-using System.ComponentModel;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 
@@ -17,9 +15,7 @@ using Px_Utiles.Servicio;
 using Px_Utiles.Models.Api;
 using Px_Utiles.Utiles.DataTables;
 using Px_Utiles.Models.Sistemas.CreditosFiscales.Catalogos;
-using System.Security.Cryptography;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using Px_Utiles.Models.Sistemas.ConciliacionBancaria.Catalogos;
+
 
 namespace Px_CreditosFiscales.Catalogos
 {

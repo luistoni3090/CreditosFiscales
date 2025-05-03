@@ -140,10 +140,77 @@
     <Compile Include="Catalogos\FrmGrupoConcepto.Designer.cs">
       <DependentUpon>FrmGrupoConcepto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Catalogos\FrmSecuencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FrmSecuencia.Designer.cs">
+      <DependentUpon>FrmSecuencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FrmStatusbien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FrmStatusbien.Designer.cs">
+      <DependentUpon>FrmStatusbien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FrmStatusNotificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FrmStatusNotificacion.Designer.cs">
+      <DependentUpon>FrmStatusNotificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FrmStatusCredito.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FrmStatusCredito.Designer.cs">
+      <DependentUpon>FrmStatusCredito.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FrmUDIS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FrmUDIS.Designer.cs">
+      <DependentUpon>FrmUDIS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FrmBodegas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FrmBodegas.Designer.cs">
+      <DependentUpon>FrmBodegas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FrmCreditoConcepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FrmCreditoConcepto.Designer.cs">
+      <DependentUpon>FrmCreditoConcepto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FrmDiasInhabiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FrmDiasInhabiles.Designer.cs">
+      <DependentUpon>FrmDiasInhabiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\Otros\FrmMotivosCancelacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\Otros\FrmMotivosCancelacion.Designer.cs">
+      <DependentUpon>FrmMotivosCancelacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utiles\Constantes\Constantes.cs" />
     <Compile Include="Utiles\Emun\Enumerados.cs" />
+    <Compile Include="Utiles\Formas\FormaGen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utiles\Formas\FormaGen.Designer.cs">
+      <DependentUpon>FormaGen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utiles\Formas\FormaGenBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utiles\Formas\FormaGenBar.Designer.cs">
+      <DependentUpon>FormaGenBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utiles\Formas\FormUtils.cs" />
     <Compile Include="Utiles\Generales\Generales.cs" />
     <Compile Include="Utiles\Modelos\AppState.cs" />
     <Compile Include="Utiles\Theme\ThemeColor.cs" />
@@ -196,6 +263,33 @@
     <EmbeddedResource Include="Catalogos\FrmGrupoConcepto.resx">
       <DependentUpon>FrmGrupoConcepto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FrmSecuencia.resx">
+      <DependentUpon>FrmSecuencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FrmStatusbien.resx">
+      <DependentUpon>FrmStatusbien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FrmStatusNotificacion.resx">
+      <DependentUpon>FrmStatusNotificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FrmStatusCredito.resx">
+      <DependentUpon>FrmStatusCredito.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FrmUDIS.resx">
+      <DependentUpon>FrmUDIS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FrmBodegas.resx">
+      <DependentUpon>FrmBodegas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FrmCreditoConcepto.resx">
+      <DependentUpon>FrmCreditoConcepto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FrmDiasInhabiles.resx">
+      <DependentUpon>FrmDiasInhabiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\Otros\FrmMotivosCancelacion.resx">
+      <DependentUpon>FrmMotivosCancelacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -206,6 +300,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Utiles\Formas\FormaGen.resx">
+      <DependentUpon>FormaGen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utiles\Formas\FormaGenBar.resx">
+      <DependentUpon>FormaGenBar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="xMain.resx">
       <DependentUpon>xMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -241,8 +341,6 @@
   <ItemGroup>
     <Content Include="CreditosFiscales.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Catalogos\Copias\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
