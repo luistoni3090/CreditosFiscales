@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmautorizacionpagopartes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 324,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "FrmConceptosObligacionesFiscales.cs [Design]",
               "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
               "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
@@ -95,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "FrmConceptosObligacionesFiscales.cs",
               "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
               "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
@@ -108,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "xMain.cs",
               "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\xMain.cs",
               "RelativeDocumentMoniker": "Px-CreditosFiscales\\xMain.cs",
