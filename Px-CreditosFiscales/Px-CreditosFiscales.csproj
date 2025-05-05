@@ -188,11 +188,29 @@
     <Compile Include="Catalogos\FrmDiasInhabiles.Designer.cs">
       <DependentUpon>FrmDiasInhabiles.cs</DependentUpon>
     </Compile>
-    <Compile Include="Catalogos\Otros\FrmMotivosCancelacion.cs">
+    <Compile Include="Catalogos\FrmMotivosCancelacion.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Catalogos\Otros\FrmMotivosCancelacion.Designer.cs">
+    <Compile Include="Catalogos\FrmMotivosCancelacion.Designer.cs">
       <DependentUpon>FrmMotivosCancelacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogos\FrmMotivosSuspencion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogos\FrmMotivosSuspencion.Designer.cs">
+      <DependentUpon>FrmMotivosSuspencion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmConceptosObligacionesFiscales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmConceptosObligacionesFiscales.Designer.cs">
+      <DependentUpon>FrmConceptosObligacionesFiscales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmAutorizacionPagoPartes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmAutorizacionPagoPartes.Designer.cs">
+      <DependentUpon>FrmAutorizacionPagoPartes.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -287,8 +305,17 @@
     <EmbeddedResource Include="Catalogos\FrmDiasInhabiles.resx">
       <DependentUpon>FrmDiasInhabiles.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Catalogos\Otros\FrmMotivosCancelacion.resx">
+    <EmbeddedResource Include="Catalogos\FrmMotivosCancelacion.resx">
       <DependentUpon>FrmMotivosCancelacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogos\FrmMotivosSuspencion.resx">
+      <DependentUpon>FrmMotivosSuspencion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmConceptosObligacionesFiscales.resx">
+      <DependentUpon>FrmConceptosObligacionesFiscales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmAutorizacionPagoPartes.resx">
+      <DependentUpon>FrmAutorizacionPagoPartes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -341,6 +368,8 @@
   <ItemGroup>
     <Content Include="CreditosFiscales.ico" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Catalogos\Otros\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -110,6 +110,7 @@
     <Compile Include="Models\General\eRequest.cs" />
     <Compile Include="Models\General\eResponse.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eBODEGAS.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eMOTIVOSSUSPENCION.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eSECUENCIA.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eRESPONSABLESOLIDARIO.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eINPC.cs" />

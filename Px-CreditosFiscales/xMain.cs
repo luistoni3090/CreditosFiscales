@@ -244,6 +244,20 @@ namespace Px_CreditosFiscales
                 case "Motivos Cancelación":
                     var oFrmC16 = await AbrirFormulario<FrmMotivosCancelacion>(); oFrmC16._Main = this; break;
 
+                case "Motivos Suspención":
+                    var oFrmC17 = await AbrirFormulario<FrmMotivosSuspencion>(); oFrmC17._Main = this; break;
+
+
+
+                // procesos
+
+                case "Autorización Pago en Partes":
+                    var oFrmC18 = await AbrirFormulario< FrmAutorizacionPagoPartes > (); oFrmC18._Main = this; break;
+
+
+                case "Obligaciones Fiscales":
+                    var oFrmC19 = await AbrirFormulario<FrmConceptosObligacionesFiscales>(); oFrmC19._Main = this; break;
+
             }
 
 
@@ -274,15 +288,16 @@ namespace Px_CreditosFiscales
 
 
                 oNodo1 = new List<TreeNode>();
+
+                oNodo1.Add(new TreeNode("  Autorización Pago en Partes", 15, 15));
+                oNodo1.Add(new TreeNode("  Obligaciones Fiscales", 16, 16));
+
+
                 oNodo2 = new List<TreeNode>();
                 oNodo2.Add(new TreeNode("Manuales [Captura]", 12, 12));
                 oNodo2.Add(new TreeNode("Automáticas [Carga]", 13, 13));
                 oNodo2.Add(new TreeNode("Autorización / Aplicación", 14, 14));
                 oNodo1.Add(new TreeNode("  Pre pólizas", 11, 11, oNodo2.ToArray()));
-
-                oNodo1.Add(new TreeNode("  Cambio de periodo / ejercicio", 15, 15));
-                oNodo1.Add(new TreeNode("  Cierre de ejercicio", 16, 16));
-                oNodo1.Add(new TreeNode("  Carga de presupuesto", 17, 17));
 
                 oNodo2 = new List<TreeNode>();
                 oNodo2.Add(new TreeNode(" Desaplicación", 19, 19));
@@ -384,6 +399,7 @@ namespace Px_CreditosFiscales
                 oNodo3.Add(new TreeNode("  Crédito - Concepto", 37, 37));
                 oNodo3.Add(new TreeNode("  Dias Inhábiles", 37, 37));
                 oNodo3.Add(new TreeNode("  Motivos Cancelación", 37, 37));
+                oNodo3.Add(new TreeNode("  Motivos Suspención", 37, 37));
 
 
                 /*

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\catalogos\\otros\\frmmotivoscancelacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\otros\\frmmotivoscancelacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\catalogos\\otros\\frmmotivoscancelacion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\catalogos\\otros\\frmmotivoscancelacion.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{314D6FE5-DEF5-4619-B131-A0043EDE345A}|Px-Utiles\\Px-Utiles.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-utiles\\models\\sistemas\\creditosfiscales\\catalogos\\emotivoscancelacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{314D6FE5-DEF5-4619-B131-A0043EDE345A}|Px-Utiles\\Px-Utiles.csproj|solutionrelative:px-utiles\\models\\sistemas\\creditosfiscales\\catalogos\\emotivoscancelacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmautorizacionpagopartes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmautorizacionpagopartes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 324,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,54 +58,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "eMOTIVOSCANCELACION.cs",
-              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-Utiles\\Models\\Sistemas\\CreditosFiscales\\Catalogos\\eMOTIVOSCANCELACION.cs",
-              "RelativeDocumentMoniker": "Px-Utiles\\Models\\Sistemas\\CreditosFiscales\\Catalogos\\eMOTIVOSCANCELACION.cs",
-              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-Utiles\\Models\\Sistemas\\CreditosFiscales\\Catalogos\\eMOTIVOSCANCELACION.cs",
-              "RelativeToolTip": "Px-Utiles\\Models\\Sistemas\\CreditosFiscales\\Catalogos\\eMOTIVOSCANCELACION.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
+              "DocumentIndex": 4,
+              "Title": "FrmAutorizacionPagoPartes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmAutorizacionPagoPartes.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmAutorizacionPagoPartes.cs",
+              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmAutorizacionPagoPartes.cs [Design]",
+              "RelativeToolTip": "Px-CreditosFiscales\\Procesos\\FrmAutorizacionPagoPartes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T01:23:03.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-05T23:10:00.198Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmConceptosObligacionesFiscales.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
+              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs [Design]",
+              "RelativeToolTip": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T22:58:06.097Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FrmMotivosCancelacion.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.Designer.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.Designer.cs",
-              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.Designer.cs",
-              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAWAAAA",
+              "Title": "FrmConceptosObligacionesFiscales.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.Designer.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.Designer.cs",
+              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.Designer.cs",
+              "RelativeToolTip": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T23:35:54.897Z",
+              "WhenOpened": "2025-05-05T22:56:28.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmConceptosObligacionesFiscales.cs",
+              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
+              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
+              "RelativeToolTip": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAWwE4AAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T22:56:24.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmMotivosCancelacion.cs",
-              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.cs",
-              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.cs",
-              "RelativeToolTip": "Px-CreditosFiscales\\Catalogos\\Otros\\FrmMotivosCancelacion.cs",
-              "ViewState": "AQIAAE4BAAAAAAAAAAAIwFsBAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T23:35:47.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "xMain.cs",
               "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\xMain.cs",
               "RelativeDocumentMoniker": "Px-CreditosFiscales\\xMain.cs",
               "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\xMain.cs",
               "RelativeToolTip": "Px-CreditosFiscales\\xMain.cs",
-              "ViewState": "AQIAAM8AAAAAAAAAAAAowPQAAABNAAAA",
+              "ViewState": "AQIAABkBAAAAAAAAAADwvyQBAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T15:52:21.422Z",
+              "WhenOpened": "2025-05-05T22:32:04.366Z",
               "EditorCaption": ""
             }
           ]
