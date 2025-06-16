@@ -10,14 +10,25 @@ using System.Windows.Forms;
 using static Px_CreditosFiscales.Utiles.Emun.Enumerados;
 
 using Px_CreditosFiscales.Utiles.Generales;
+using Px_Controles.Colors;
+using Px_Controles.Forms.Msg;
+using System.Data.SqlClient;
+using Px_Utiles.Models.Sistemas.ConciliacionBancaria.Catalogos;
+using Px_Utiles.Models.Sistemas.Contabilidad.Catalogos;
+using System.Diagnostics.Eventing.Reader;
+using Px_Utiles.Models.Sistemas.CreditosFiscales.Catalogos;
+using Px_CreditosFiscales.Utiles.Win32;
+using System.Diagnostics;
 
 
 
 namespace Px_CreditosFiscales
 {
-    public partial class FrmConceptosObligacionesFiscales : FormaGenBar
+    public partial class FrmCierreMes : FormaGenBar
     {
-        
+
+        private DataGridView dataGridView1;
+
 
         private void label6_Click(object sender, EventArgs e)
         {
@@ -28,7 +39,7 @@ namespace Px_CreditosFiscales
         DataGridView oGrid = new DataGridView();
 
 
-        public FrmConceptosObligacionesFiscales()
+        public FrmCierreMes()
         {
             InitializeComponent();
             Start();
@@ -37,12 +48,13 @@ namespace Px_CreditosFiscales
       
         private async Task Start()
         {
-           _Titulo = "Conceptos por Obligaciones Fiscales";
+           _Titulo = "Cierre del Mes";
 
             oReq.Base = Generales._AppState.Base;
             oReq.EndPoint = Generales._AppState.EndPoint;
 
             await StartForm();
+            
 
         }
 
@@ -68,12 +80,17 @@ namespace Px_CreditosFiscales
             if (_Main != null)
                 await _Main.Status($"{_Titulo}", (int)MensajeTipo.Info);
 
-            TabControl.TabPages[0].Text = "Datos del Contribuyente";
-            TabControl.TabPages[1].Text = "Conceptos";
-            TabControl.TabPages[2].Text = "Representante Legal";
-            TabControl.TabPages[3].Text = "Acta Constitutiva";
+        }
 
 
+        private void panContent_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBoxMX.ShowDialog(null, $"Se realizó el cierre del mes ", "Aviso", (int)StatusColorsTypes.Success, false);
         }
     }
 }

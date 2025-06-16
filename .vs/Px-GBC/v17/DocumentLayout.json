@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmreciboscaptura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmreciboscaptura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmreciboscaptura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmreciboscaptura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmconceptosobligacionesfiscales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmreciboscaptura.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmreciboscaptura.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\xmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|c:\\users\\luismolina\\desktop\\creditosfiscales\\px-creditosfiscales\\procesos\\frmautorizacionpagopartes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{EFA8484B-E25E-4D89-9AE3-9FBA73C82680}|Px-CreditosFiscales\\Px-CreditosFiscales.csproj|solutionrelative:px-creditosfiscales\\procesos\\frmautorizacionpagopartes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 324,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,52 +54,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmAutorizacionPagoPartes.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmAutorizacionPagoPartes.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmAutorizacionPagoPartes.cs",
-              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmAutorizacionPagoPartes.cs [Design]",
-              "RelativeToolTip": "Px-CreditosFiscales\\Procesos\\FrmAutorizacionPagoPartes.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T23:10:00.198Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FrmConceptosObligacionesFiscales.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
-              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs [Design]",
-              "RelativeToolTip": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs [Design]",
+              "Title": "FrmRecibosCaptura.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmRecibosCaptura.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmRecibosCaptura.cs",
+              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmRecibosCaptura.cs [Design]*",
+              "RelativeToolTip": "Px-CreditosFiscales\\Procesos\\FrmRecibosCaptura.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:58:06.097Z",
+              "WhenOpened": "2025-06-15T04:48:24.188Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmConceptosObligacionesFiscales.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.Designer.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.Designer.cs",
-              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.Designer.cs",
-              "RelativeToolTip": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:56:28.26Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FrmConceptosObligacionesFiscales.cs",
-              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
-              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
-              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
-              "RelativeToolTip": "Px-CreditosFiscales\\Procesos\\FrmConceptosObligacionesFiscales.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAWwE4AAABIAAAA",
+              "Title": "FrmRecibosCaptura.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmRecibosCaptura.Designer.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmRecibosCaptura.Designer.cs",
+              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmRecibosCaptura.Designer.cs*",
+              "RelativeToolTip": "Px-CreditosFiscales\\Procesos\\FrmRecibosCaptura.Designer.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T22:56:24.255Z",
+              "WhenOpened": "2025-06-15T04:47:19.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmRecibosCaptura.cs",
+              "DocumentMoniker": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmRecibosCaptura.cs",
+              "RelativeDocumentMoniker": "Px-CreditosFiscales\\Procesos\\FrmRecibosCaptura.cs",
+              "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\Procesos\\FrmRecibosCaptura.cs*",
+              "RelativeToolTip": "Px-CreditosFiscales\\Procesos\\FrmRecibosCaptura.cs*",
+              "ViewState": "AQIAABoAAAAAAAAAAAAxwDIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T04:47:16.617Z",
               "EditorCaption": ""
             },
             {
@@ -114,7 +98,7 @@
               "RelativeDocumentMoniker": "Px-CreditosFiscales\\xMain.cs",
               "ToolTip": "C:\\Users\\LuisMolina\\Desktop\\CreditosFiscales\\Px-CreditosFiscales\\xMain.cs",
               "RelativeToolTip": "Px-CreditosFiscales\\xMain.cs",
-              "ViewState": "AQIAABkBAAAAAAAAAADwvyQBAABMAAAA",
+              "ViewState": "AQIAACIBAAAAAAAAAAAiwDUBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T22:32:04.366Z",
               "EditorCaption": ""

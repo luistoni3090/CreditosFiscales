@@ -15,7 +15,7 @@ using Px_CreditosFiscales.Utiles.Generales;
 
 namespace Px_CreditosFiscales
 {
-    public partial class FrmConceptosObligacionesFiscales : FormaGenBar
+    public partial class FrmPagoInicialDosPartes : FormaGenBar
     {
         
 
@@ -28,7 +28,7 @@ namespace Px_CreditosFiscales
         DataGridView oGrid = new DataGridView();
 
 
-        public FrmConceptosObligacionesFiscales()
+        public FrmPagoInicialDosPartes()
         {
             InitializeComponent();
             Start();
@@ -37,10 +37,13 @@ namespace Px_CreditosFiscales
       
         private async Task Start()
         {
-           _Titulo = "Conceptos por Obligaciones Fiscales";
+           _Titulo = "Pago Inicial en Dos Partes";
 
             oReq.Base = Generales._AppState.Base;
             oReq.EndPoint = Generales._AppState.EndPoint;
+
+            txtFecha.Text = DateTime.Now.ToString("dd/MMMM/yyyy",
+                         new System.Globalization.CultureInfo("es-ES"));
 
             await StartForm();
 
@@ -73,6 +76,18 @@ namespace Px_CreditosFiscales
             TabControl.TabPages[2].Text = "Representante Legal";
             TabControl.TabPages[3].Text = "Acta Constitutiva";
 
+            
+
+
+        }
+
+        private void textBox24_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmPagoInicialDosPartes_Load(object sender, EventArgs e)
+        {
 
         }
     }

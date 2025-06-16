@@ -200,6 +200,120 @@
     <Compile Include="Catalogos\FrmMotivosSuspencion.Designer.cs">
       <DependentUpon>FrmMotivosSuspencion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Procesos\FrmRecibosCaptura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmRecibosCaptura.Designer.cs">
+      <DependentUpon>FrmRecibosCaptura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmReciboDescuentosGastosEjecucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmReciboDescuentosGastosEjecucion.Designer.cs">
+      <DependentUpon>FrmReciboDescuentosGastosEjecucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmCancelacionReciboPiPartes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmCancelacionReciboPiPartes.Designer.cs">
+      <DependentUpon>FrmCancelacionReciboPiPartes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmReciboReimpresionPagadosInternetCajas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmReciboReimpresionPagadosInternetCajas.Designer.cs">
+      <DependentUpon>FrmReciboReimpresionPagadosInternetCajas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmReciboReimpresion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmReciboReimpresion.Designer.cs">
+      <DependentUpon>FrmReciboReimpresion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmReciboCancelacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmReciboCancelacion.Designer.cs">
+      <DependentUpon>FrmReciboCancelacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmReciboEmision.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmReciboEmision.Designer.cs">
+      <DependentUpon>FrmReciboEmision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmCierreMes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmCierreMes.Designer.cs">
+      <DependentUpon>FrmCierreMes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmCambioDeEstatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmCambioDeEstatus.Designer.cs">
+      <DependentUpon>FrmCambioDeEstatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmAplicarPagoInicial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmAplicarPagoInicial.Designer.cs">
+      <DependentUpon>FrmAplicarPagoInicial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmPagoInicialDosPartes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmPagoInicialDosPartes.Designer.cs">
+      <DependentUpon>FrmPagoInicialDosPartes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmDepuracionPagosInconsistentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmDepuracionPagosInconsistentes.Designer.cs">
+      <DependentUpon>FrmDepuracionPagosInconsistentes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmPagosManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmPagosManual.Designer.cs">
+      <DependentUpon>FrmPagosManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmPagosEnEspecie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmPagosEnEspecie.Designer.cs">
+      <DependentUpon>FrmPagosEnEspecie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmDesaplicacionIndividual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmDesaplicacionIndividual.Designer.cs">
+      <DependentUpon>FrmDesaplicacionIndividual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmPagosNoAplicados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmPagosNoAplicados.Designer.cs">
+      <DependentUpon>FrmPagosNoAplicados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmResumenEjecutivoPropuestaPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmResumenEjecutivoPropuestaPago.Designer.cs">
+      <DependentUpon>FrmResumenEjecutivoPropuestaPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmCancelacionCreditoPreinscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmCancelacionCreditoPreinscripcion.Designer.cs">
+      <DependentUpon>FrmCancelacionCreditoPreinscripcion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\FrmBonificacionesNuevaAutorizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmBonificacionesNuevaAutorizacion.Designer.cs">
+      <DependentUpon>FrmBonificacionesNuevaAutorizacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Procesos\FrmConceptosObligacionesFiscales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -310,6 +424,63 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Catalogos\FrmMotivosSuspencion.resx">
       <DependentUpon>FrmMotivosSuspencion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmRecibosCaptura.resx">
+      <DependentUpon>FrmRecibosCaptura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmReciboDescuentosGastosEjecucion.resx">
+      <DependentUpon>FrmReciboDescuentosGastosEjecucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmCancelacionReciboPiPartes.resx">
+      <DependentUpon>FrmCancelacionReciboPiPartes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmReciboReimpresionPagadosInternetCajas.resx">
+      <DependentUpon>FrmReciboReimpresionPagadosInternetCajas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmReciboReimpresion.resx">
+      <DependentUpon>FrmReciboReimpresion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmReciboCancelacion.resx">
+      <DependentUpon>FrmReciboCancelacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmReciboEmision.resx">
+      <DependentUpon>FrmReciboEmision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmCierreMes.resx">
+      <DependentUpon>FrmCierreMes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmCambioDeEstatus.resx">
+      <DependentUpon>FrmCambioDeEstatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmAplicarPagoInicial.resx">
+      <DependentUpon>FrmAplicarPagoInicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmPagoInicialDosPartes.resx">
+      <DependentUpon>FrmPagoInicialDosPartes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmDepuracionPagosInconsistentes.resx">
+      <DependentUpon>FrmDepuracionPagosInconsistentes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmPagosManual.resx">
+      <DependentUpon>FrmPagosManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmPagosEnEspecie.resx">
+      <DependentUpon>FrmPagosEnEspecie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmDesaplicacionIndividual.resx">
+      <DependentUpon>FrmDesaplicacionIndividual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmPagosNoAplicados.resx">
+      <DependentUpon>FrmPagosNoAplicados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmResumenEjecutivoPropuestaPago.resx">
+      <DependentUpon>FrmResumenEjecutivoPropuestaPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmCancelacionCreditoPreinscripcion.resx">
+      <DependentUpon>FrmCancelacionCreditoPreinscripcion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmBonificacionesNuevaAutorizacion.resx">
+      <DependentUpon>FrmBonificacionesNuevaAutorizacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Procesos\FrmConceptosObligacionesFiscales.resx">
       <DependentUpon>FrmConceptosObligacionesFiscales.cs</DependentUpon>

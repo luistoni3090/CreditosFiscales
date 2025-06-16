@@ -23,12 +23,15 @@ namespace Px_CreditosFiscales
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmConceptosObligacionesFiscales));
             this.panContent = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.TabControl = new System.Windows.Forms.TabControl();
             this.DatosContribuyente = new System.Windows.Forms.TabPage();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
@@ -52,6 +55,8 @@ namespace Px_CreditosFiscales
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.lblMensajes = new System.Windows.Forms.ToolStripStatusLabel();
             this.lblFormatoPoliza = new System.Windows.Forms.ToolStripStatusLabel();
@@ -62,7 +67,8 @@ namespace Px_CreditosFiscales
             this.btnmnuImprime = new System.Windows.Forms.Button();
             this.btnmnuAyuda = new System.Windows.Forms.Button();
             this.panContent.SuspendLayout();
-            this.tabControl1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.TabControl.SuspendLayout();
             this.DatosContribuyente.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -71,12 +77,10 @@ namespace Px_CreditosFiscales
             // 
             // panContent
             // 
-            this.panContent.Controls.Add(this.radioButton5);
-            this.panContent.Controls.Add(this.radioButton4);
-            this.panContent.Controls.Add(this.radioButton3);
-            this.panContent.Controls.Add(this.radioButton2);
-            this.panContent.Controls.Add(this.radioButton1);
-            this.panContent.Controls.Add(this.tabControl1);
+            this.panContent.Controls.Add(this.label2);
+            this.panContent.Controls.Add(this.textBox1);
+            this.panContent.Controls.Add(this.groupBox2);
+            this.panContent.Controls.Add(this.TabControl);
             this.panContent.Controls.Add(this.statusStrip1);
             this.panContent.Controls.Add(this.stFormato);
             this.panContent.Controls.Add(this.stErroneos);
@@ -84,13 +88,42 @@ namespace Px_CreditosFiscales
             this.panContent.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panContent.Location = new System.Drawing.Point(0, 76);
             this.panContent.Name = "panContent";
-            this.panContent.Size = new System.Drawing.Size(974, 672);
+            this.panContent.Size = new System.Drawing.Size(974, 749);
             this.panContent.TabIndex = 10;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(20, 74);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(28, 13);
+            this.label2.TabIndex = 37;
+            this.label2.Text = "RFC";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(55, 71);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(140, 20);
+            this.textBox1.TabIndex = 36;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.radioButton5);
+            this.groupBox2.Controls.Add(this.radioButton4);
+            this.groupBox2.Controls.Add(this.radioButton3);
+            this.groupBox2.Controls.Add(this.radioButton2);
+            this.groupBox2.Controls.Add(this.radioButton1);
+            this.groupBox2.Location = new System.Drawing.Point(12, 4);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(713, 53);
+            this.groupBox2.TabIndex = 35;
+            this.groupBox2.TabStop = false;
             // 
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(484, 25);
+            this.radioButton5.Location = new System.Drawing.Point(472, 21);
             this.radioButton5.Name = "radioButton5";
             this.radioButton5.Size = new System.Drawing.Size(127, 17);
             this.radioButton5.TabIndex = 34;
@@ -100,7 +133,7 @@ namespace Px_CreditosFiscales
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(401, 25);
+            this.radioButton4.Location = new System.Drawing.Point(389, 21);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(57, 17);
             this.radioButton4.TabIndex = 33;
@@ -110,7 +143,7 @@ namespace Px_CreditosFiscales
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(314, 25);
+            this.radioButton3.Location = new System.Drawing.Point(302, 21);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(60, 17);
             this.radioButton3.TabIndex = 32;
@@ -120,7 +153,7 @@ namespace Px_CreditosFiscales
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(186, 25);
+            this.radioButton2.Location = new System.Drawing.Point(174, 21);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(93, 17);
             this.radioButton2.TabIndex = 31;
@@ -131,7 +164,7 @@ namespace Px_CreditosFiscales
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(23, 25);
+            this.radioButton1.Location = new System.Drawing.Point(11, 21);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(129, 17);
             this.radioButton1.TabIndex = 30;
@@ -139,16 +172,18 @@ namespace Px_CreditosFiscales
             this.radioButton1.Text = "Est. de Oblig. Fiscales";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // tabControl1
+            // TabControl
             // 
-            this.tabControl1.Controls.Add(this.DatosContribuyente);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(3, 123);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(968, 561);
-            this.tabControl1.TabIndex = 29;
-            this.tabControl1.Tag = "Datos del contribuyente";
+            this.TabControl.Controls.Add(this.DatosContribuyente);
+            this.TabControl.Controls.Add(this.tabPage2);
+            this.TabControl.Controls.Add(this.tabPage1);
+            this.TabControl.Controls.Add(this.tabPage3);
+            this.TabControl.Location = new System.Drawing.Point(6, 108);
+            this.TabControl.Name = "TabControl";
+            this.TabControl.SelectedIndex = 0;
+            this.TabControl.Size = new System.Drawing.Size(968, 616);
+            this.TabControl.TabIndex = 29;
+            this.TabControl.Tag = "Datos del contribuyente";
             // 
             // DatosContribuyente
             // 
@@ -156,7 +191,7 @@ namespace Px_CreditosFiscales
             this.DatosContribuyente.Location = new System.Drawing.Point(4, 22);
             this.DatosContribuyente.Name = "DatosContribuyente";
             this.DatosContribuyente.Padding = new System.Windows.Forms.Padding(3);
-            this.DatosContribuyente.Size = new System.Drawing.Size(960, 535);
+            this.DatosContribuyente.Size = new System.Drawing.Size(960, 590);
             this.DatosContribuyente.TabIndex = 0;
             this.DatosContribuyente.Text = "tabPage1";
             this.DatosContribuyente.UseVisualStyleBackColor = true;
@@ -365,10 +400,30 @@ namespace Px_CreditosFiscales
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(960, 535);
+            this.tabPage2.Size = new System.Drawing.Size(960, 590);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(960, 590);
+            this.tabPage1.TabIndex = 2;
+            this.tabPage1.Text = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(960, 590);
+            this.tabPage3.TabIndex = 3;
+            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // statusStrip1
             // 
@@ -376,7 +431,7 @@ namespace Px_CreditosFiscales
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.lblMensajes,
             this.lblFormatoPoliza});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 650);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 727);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(974, 22);
             this.statusStrip1.TabIndex = 28;
@@ -469,7 +524,7 @@ namespace Px_CreditosFiscales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(974, 748);
+            this.ClientSize = new System.Drawing.Size(974, 825);
             this.Controls.Add(this.panContent);
             this.Controls.Add(this.panMenu);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -480,7 +535,9 @@ namespace Px_CreditosFiscales
             this.Controls.SetChildIndex(this.panContent, 0);
             this.panContent.ResumeLayout(false);
             this.panContent.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.TabControl.ResumeLayout(false);
             this.DatosContribuyente.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -502,7 +559,7 @@ namespace Px_CreditosFiscales
         private Panel panMenu;
         private Button btnmnuImprime;
         private Button btnmnuAyuda;
-        private TabControl tabControl1;
+        private TabControl TabControl;
         private TabPage DatosContribuyente;
         private TabPage tabPage2;
         private GroupBox groupBox1;
@@ -531,5 +588,10 @@ namespace Px_CreditosFiscales
         private RadioButton radioButton5;
         private RadioButton radioButton4;
         private RadioButton radioButton3;
+        private TabPage tabPage1;
+        private TabPage tabPage3;
+        private GroupBox groupBox2;
+        private Label label2;
+        private TextBox textBox1;
     }
 }

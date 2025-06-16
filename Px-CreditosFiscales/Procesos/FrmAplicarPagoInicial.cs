@@ -10,12 +10,15 @@ using System.Windows.Forms;
 using static Px_CreditosFiscales.Utiles.Emun.Enumerados;
 
 using Px_CreditosFiscales.Utiles.Generales;
+using Px_Controles.Colors;
+using Px_Controles.Forms.Msg;
+using System.Xml.Linq;
 
 
 
 namespace Px_CreditosFiscales
 {
-    public partial class FrmConceptosObligacionesFiscales : FormaGenBar
+    public partial class FrmAplicarPagoInicial : FormaGenBar
     {
         
 
@@ -28,7 +31,7 @@ namespace Px_CreditosFiscales
         DataGridView oGrid = new DataGridView();
 
 
-        public FrmConceptosObligacionesFiscales()
+        public FrmAplicarPagoInicial()
         {
             InitializeComponent();
             Start();
@@ -37,10 +40,13 @@ namespace Px_CreditosFiscales
       
         private async Task Start()
         {
-           _Titulo = "Conceptos por Obligaciones Fiscales";
+           _Titulo = "Aplicar Pago Inicial";
 
             oReq.Base = Generales._AppState.Base;
             oReq.EndPoint = Generales._AppState.EndPoint;
+
+            txtFecha.Text = DateTime.Now.ToString("dd/MMMM/yyyy",
+                         new System.Globalization.CultureInfo("es-ES"));
 
             await StartForm();
 
@@ -73,7 +79,25 @@ namespace Px_CreditosFiscales
             TabControl.TabPages[2].Text = "Representante Legal";
             TabControl.TabPages[3].Text = "Acta Constitutiva";
 
+        }
 
+        private void textBox24_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmPagoInicialDosPartes_Load(object sender, EventArgs e)
+        {
+        }
+
+        private void textBox24_TextChanged(object sender, KeyEventArgs e)
+        {
+            
+        } 
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBoxMX.ShowDialog(null, $"El crédito no existe:", "Aviso", (int)StatusColorsTypes.Danger, false);
         }
     }
 }
