@@ -142,8 +142,8 @@ namespace Px_CreditosFiscales
         private void button1_Click_1(object sender, EventArgs e)
         {
                
-            MessageBoxMX.ShowDialog(null, $"No se encontró información para el crédito ", "Aviso", (int)StatusColorsTypes.Warning, false);
-            MessageBoxMX.ShowDialog(null, $"No se encontró información para la fecha ", "Aviso", (int)StatusColorsTypes.Warning, false);
+            MessageBoxMX.ShowDialog(null,  $"No se encontró información para el crédito ", "Aviso", (int)StatusColorsTypes.Warning, false);
+            MessageBoxMX.ShowDialog(null,  $"No se encontró información para la fecha ", "Aviso", (int)StatusColorsTypes.Warning, false);
         }
 
         private void panContent_Paint(object sender, PaintEventArgs e)

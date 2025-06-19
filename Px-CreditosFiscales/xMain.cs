@@ -27,7 +27,13 @@ using Px_CreditosFiscales.Catalogos.Controles;
 
 using static Px_CreditosFiscales.Utiles.Emun.Enumerados;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
+using Px_Controles.Forms.Login;
+using Px_Utiles.Models.Sistemas.CreditosFiscales.Seguridad;
+using Px_Utiles.Utiles.DataTables;
 using Px_Utiles.Models.Sistemas.CreditosFiscales.Catalogos;
+using Px_Utiles.Models.Sistemas.Contabilidad.Catalogos;
+
 
 namespace Px_CreditosFiscales
 {
@@ -36,12 +42,20 @@ namespace Px_CreditosFiscales
         eRequest oReq = new eRequest();
         Timer TimerStatus = new Timer();
 
+        public Color _ForeColor { get; set; } = Color.Navy;
+        public Color _BackColor { get; set; } = Color.White;
+        public Color _BackAquaColor { get; set; } = Color.White;
+
+        private int ColorR = 0;
+        private int ColorG = 0;
+        private int ColorB = 0;
+
         #region Constructores
         public xMain()
         {
             InitializeComponent();
 
-            Inicio();
+           _= Inicio();
         }
 
 
@@ -65,20 +79,152 @@ namespace Px_CreditosFiscales
             TimerStatus.Enabled = true;
 
             // Parámetros Generales
-            Generales._AppState.Base = "creditosfiscales";
+
+            //Generales._AppState.Base = ConfigurationManager.AppSettings["Base"].ToString();
+            //Generales._AppState.Owner = ConfigurationManager.AppSettings["Owner"].ToString();
+            //Generales._AppState.EndPoint = ConfigurationManager.AppSettings["EndPoint"].ToString();
+
+           Generales._AppState.Base = "creditosfiscales";
             Generales._AppState.EndPoint = ConfigurationManager.AppSettings["EndPoint"].ToString();
 
-
-            Generales._AppState.Empresa = 1;
-            Generales._AppState.Ejercicio = DateTime.Now.Year;
-
+            oReq.Base = Generales._AppState.Base;
+            oReq.EndPoint = Generales._AppState.EndPoint;
 
 
             await InicioForma();
+            await LoginInicia();
             await conActualiza();
 
 
         }
+
+        private async Task LoginInicia()
+        {
+            await Task.Delay(0);
+
+            bool bExito = await FrmLogin.MostrarLogin(this, LoginValida, LoginSalir, Generales._AppState.Base, "Sistema de Créditos Fiscales", false);
+
+            if (bExito)
+            {
+
+                panXTittle.Enabled = true;
+
+                ArbolCrea();
+                MenuCrea();
+
+                await LoginIniciaParametros();
+
+                await Status($"Bienvenido {Generales._AppState._Empleado.Nombre}", (int)MensajeTipo.Success);
+            }
+            else
+            {
+                await Status($"Logueo incorrecto, el sistema se cerrará.", (int)MensajeTipo.Error);
+                // Invocar cierre del sistema
+            }
+
+        }
+        private async Task LoginSalir()
+        {
+            this.Close();
+        }
+        private async Task<bool> LoginValida(string sUsuario, string sPassword)
+        {
+
+            if (string.IsNullOrEmpty(sUsuario))
+            {
+                await Status($"Debe de indicar al usuario.", (int)MensajeTipo.Error);
+                return false;
+            }
+
+            if (string.IsNullOrEmpty(sPassword))
+            {
+                await Status($"Debe de indicar la contraseña.", (int)MensajeTipo.Error);
+                return false;
+            }
+
+            //await Task.Delay(3000);
+            Cursor = Cursors.WaitCursor;
+            await Status($"Validando usuario", (int)MensajeTipo.General);
+
+            bool bExito = false;
+            eEMPLEADO xUsu = new eEMPLEADO();
+            string sPass = "";
+            try
+            {
+
+                oReq.Query = $@"
+                   SELECT DGI_USR.RFC,
+                       DGI_USR.SYSUSER, 
+                       DGI_USR.APP_PWD,
+                       DGI_ROL_USR.ROL,                       
+                        DGI_ROL_USR.APP_LOGIN
+                  FROM DGI.DGI_ROL_USR,   
+                       DGI.DGI_USR, 
+                       DGI.DGI_USR_BD
+                  WHERE DGI_ROL_USR.APP_LOGIN = DGI_USR.APP_LOGIN AND
+                        DGI_USR.SYSUSER = DGI_USR_BD.SYSUSER AND
+                           DGI_USR.APP_LOGIN = '{sUsuario}' 
+                    ";
+
+
+                var oRes = await WSServicio.Servicio(oReq);
+                if (oRes.Data.Tables.Count > 0 && oRes.Data.Tables[0].Rows.Count > 0)
+                {
+                    xUsu = oRes.Data.Tables[0].Rows[0].RowAObjetoDe<eEMPLEADO>();
+                }
+
+                if (string.IsNullOrEmpty(xUsu.APP_PWD))
+                {
+                    await Status($"No se encontró al usuario {sUsuario}.", (int)MensajeTipo.Error);
+                }
+                else
+                {
+                    if (sPassword.Trim() == xUsu.APP_PWD.Trim())
+                    {
+                        //if (xUsu.EMP_MPACT == "S")
+                        //{
+                        bExito = true;
+                        await Status($"Usuario correcto.", (int)MensajeTipo.Success);
+                        //}
+                        //else
+                        //{
+                        //await Status($"El {sUsuario}, ha sido desactivado del sistema consulte a su administrador.", (int)MensajeTipo.Error);
+                        //}
+                    }
+                    else
+                    {
+                        await Status($"La contraseña es incorrecta.", (int)MensajeTipo.Warning);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                await Status($"{ex.Message}", (int)MensajeTipo.Error);
+            }
+
+
+            Cursor = Cursors.Default;
+
+            return bExito;
+        }
+
+        private async Task LoginIniciaParametros()
+        {
+
+            try
+            {
+
+                ConfigHelper.ActualizarAppSettings("Ejercicio", Generales._AppState.Ejercicio.ToString());
+                ConfigHelper.ActualizarAppSettings("Periodo", Generales._AppState.Periodo.ToString());
+            }
+            catch (Exception ex)
+            {
+                await Status($"Error al iniciar parámetros: {ex.Message}", (int)MensajeTipo.Error);
+            }
+
+        }
+
+        #endregion
 
         private async Task InicioForma()
         {
@@ -104,17 +250,17 @@ namespace Px_CreditosFiscales
 
             lblVer.Text = string.Format("Version: {0}", Application.ProductVersion);
 
-            ArbolCrea();
-            MenuCrea();
+            //ArbolCrea();
+            //MenuCrea();
 
             await Status($"{this.Text}  .:: Power by PANXEA | Wero MX ::.", (int)MensajeTipo.Info);
         }
 
-        #endregion
 
         #region Eventos
         private void xMain_FormClosing(object sender, FormClosingEventArgs e)
         {
+
             Status("¿Deseas salir de Créditos Fiscales del GBC?", (int)MensajeTipo.Question);
             e.Cancel = MessageBoxMX.ShowDialog(null, "¿Deseas salir de Créditos Fiscales del GBC?", lblTitulo.Text, (int)StatusColorsTypes.Question, true) == System.Windows.Forms.DialogResult.OK ? false : true;
 
@@ -154,6 +300,62 @@ namespace Px_CreditosFiscales
             panTMI.Width = panTMI.Width == 320 ? 10 : 320;
             uiTreeViewEx1.Visible = panTMI.Width == 320 ? true : false;
         }
+
+
+
+        
+        /*
+        #region Theme
+        private async void ColorSelectorControl1_ColorSelected(object sender, ColorSelectedEventArgs e)
+        {
+            // Obtener el color seleccionado
+            Color colorSeleccionado = e.SelectedColor;
+            await Theme(colorSeleccionado);
+        }*/
+
+       
+
+        /*
+        
+        public async Task Theme(Color colorSeleccionado)
+        {
+            // Ejecutar la función para cambiar los colores de los controles UI
+            Color xFore = UIHelper.CambiarColorControlesUI(this, colorSeleccionado);
+
+            // Tree se cocina aparte
+            uiTreeViewEx1.NodeForeColor = colorSeleccionado == Color.White ? Color.FromArgb(6, 6, 6) : colorSeleccionado;
+            uiTreeViewEx1.NodeSelectedForeColor = colorSeleccionado == Color.White ? Color.White : xFore;
+            uiTreeViewEx1.NodeSelectedBackColor = colorSeleccionado == Color.White ? Color.FromArgb(6, 6, 6) : colorSeleccionado;
+
+            double proporciónPastel = 0.9;
+            _ForeColor = xFore;
+            _BackColor = colorSeleccionado;
+            _BackAquaColor = UIHelper.ConvertToPastel(colorSeleccionado, proporciónPastel);
+            var imgBGColor = UIHelper.ConvertToPastel(colorSeleccionado, 0, 250);
+
+            panContent.BackColor = _BackAquaColor;
+            panTMT.BackColor = _BackAquaColor;
+
+
+            // Menu
+            customMenu1.SubMenuForeColor = _BackColor;
+            customMenu1.RootBackgroundColor = _BackColor;
+            customMenu1.RootForeColor = Color.White;
+            customMenu1.ImageBackgroundColor = imgBGColor;
+
+            //customMenu1.ImageBackgroundColor = _BackColor;
+
+
+            // ingreso al appsettings
+            ConfigHelper.ActualizarAppSettings("ColorR", colorSeleccionado.R.ToString());
+            ConfigHelper.ActualizarAppSettings("ColorG", colorSeleccionado.G.ToString());
+            ConfigHelper.ActualizarAppSettings("ColorB", colorSeleccionado.B.ToString());
+
+
+            await Task.Delay(0);
+        }*/
+
+
         #endregion
 
         #region Abir formas hjas
@@ -306,7 +508,7 @@ namespace Px_CreditosFiscales
                     var oFrmC34 = await AbrirFormulario<FrmReciboCancelacion>(); oFrmC34._Main = this; break;
 
                 case "Captura":
-                    var oFrmC35 = await AbrirFormulario<FrmReciboCancelacion>(); oFrmC35._Main = this; break;
+                    var oFrmC35 = await AbrirFormulario<FrmRecibosCaptura>(); oFrmC35._Main = this; break;
 
                 case "Reimpresión":
                     var oFrmC36 = await AbrirFormulario<FrmReciboReimpresion>(); oFrmC36._Main = this; break;
@@ -322,7 +524,10 @@ namespace Px_CreditosFiscales
 
                 case "Cancelación Recibo PI Partes":
                     var oFrmC40 = await AbrirFormulario<FrmCancelacionReciboPiPartes>(); oFrmC40._Main = this; break;
-                    
+
+                case "Refrescar Vistas Reportes":
+                    var oFrmC41 = await AbrirFormulario<FrmRefrescarVistasReportes>(); oFrmC41._Main = this; break;
+
 
 
 
@@ -399,6 +604,8 @@ namespace Px_CreditosFiscales
                 oNodo2.Add(new TreeNode("Cancelación Recibo PI Partes", 14, 14));
                 oNodo1.Add(new TreeNode("  Recibo", 11, 11, oNodo2.ToArray()));
 
+
+                oNodo1.Add(new TreeNode("  Autorización Pago en Partes", 15, 15));
 
                 /*
                 oNodo2 = new List<TreeNode>();

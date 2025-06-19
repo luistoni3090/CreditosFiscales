@@ -90,7 +90,7 @@ namespace Px_CreditosFiscales
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBoxMX.ShowDialog(null, $"Se realizó el cierre del mes ", "Aviso", (int)StatusColorsTypes.Success, false);
+            MessageBoxMX.ShowDialog(null,  $"Se realizó el cierre del mes ", "Aviso", (int)StatusColorsTypes.Success, false);
         }
     }
 }

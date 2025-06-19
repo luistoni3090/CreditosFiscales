@@ -143,7 +143,7 @@ namespace Px_CreditosFiscales
 
             string credito = txtCredito.Text;
 
-            MessageBoxMX.ShowDialog(null, $"El crédito " + credito + " Ya esta cancelado ", "Aviso", (int)StatusColorsTypes.Danger, false);
+            MessageBoxMX.ShowDialog(null,  $"El crédito " + credito + " Ya esta cancelado ", "Aviso", (int)StatusColorsTypes.Danger, false);
         }
     }
 }

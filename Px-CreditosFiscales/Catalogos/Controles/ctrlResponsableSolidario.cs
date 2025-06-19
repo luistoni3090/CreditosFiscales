@@ -182,7 +182,7 @@ namespace Px_CreditosFiscales.Catalogos.Controles
 
             if (txtValida.Text == "Nuevo") return;
             await _Main.Status($"¿Deseas borrar el registro con Tipo {_Reg.TIPO} y Ley {_Reg.LEY}?", (int)MensajeTipo.Question);
-            if (MessageBoxMX.ShowDialog(null, $"¿Deseas borrar el registro con Tipo {_Reg.TIPO} y Ley {_Reg.LEY}?", "Precaución", (int)StatusColorsTypes.Question, true) == System.Windows.Forms.DialogResult.Cancel)
+            if (MessageBoxMX.ShowDialog(null,  $"¿Deseas borrar el registro con Tipo {_Reg.TIPO} y Ley {_Reg.LEY}?", "Precaución", (int)StatusColorsTypes.Question, true) == System.Windows.Forms.DialogResult.Cancel)
                 return;
 
             await _Main.Status($"¿Realmente estas seguro que Deseas borrar el registro con Tipo {_Reg.TIPO} y Ley {_Reg.LEY}??", (int)MensajeTipo.Error);

@@ -79,6 +79,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Seguridad\eEMPLEADO.cs" />
     <Compile Include="Models\Sistemas\ConciliacionBancaria\Catalogos\eBANCO.cs" />
     <Compile Include="Models\Sistemas\ConciliacionBancaria\Catalogos\eCUENTASBANCARIAS.cs" />
     <Compile Include="Models\Sistemas\ConciliacionBancaria\Catalogos\eMONEDA.cs" />
@@ -110,6 +111,8 @@
     <Compile Include="Models\General\eRequest.cs" />
     <Compile Include="Models\General\eResponse.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eBODEGAS.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eCUENTA.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eEMPRESA.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eMOTIVOSSUSPENCION.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eSECUENCIA.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eRESPONSABLESOLIDARIO.cs" />
@@ -126,6 +129,9 @@
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eSTATUSCREDITO.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eSTATUSBIEN.cs" />
     <Compile Include="Models\Sistemas\CreditosFiscales\Catalogos\eMOTIVOSCANCELACION.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\General\ComboBoxItem.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\General\ComboBoxItemInt.cs" />
+    <Compile Include="Models\Sistemas\CreditosFiscales\Seguridad\eEMPLEADO.cs" />
     <Compile Include="Models\Sistemas\General\eLlaveValor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicio\WSServicio.cs" />

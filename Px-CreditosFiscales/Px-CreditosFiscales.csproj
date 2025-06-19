@@ -200,6 +200,12 @@
     <Compile Include="Catalogos\FrmMotivosSuspencion.Designer.cs">
       <DependentUpon>FrmMotivosSuspencion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Procesos\FrmRefrescarVistasReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\FrmRefrescarVistasReportes.Designer.cs">
+      <DependentUpon>FrmRefrescarVistasReportes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Procesos\FrmRecibosCaptura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -343,6 +349,7 @@
       <DependentUpon>FormaGenBar.cs</DependentUpon>
     </Compile>
     <Compile Include="Utiles\Formas\FormUtils.cs" />
+    <Compile Include="Utiles\Generales\ConfigHelper.cs" />
     <Compile Include="Utiles\Generales\Generales.cs" />
     <Compile Include="Utiles\Modelos\AppState.cs" />
     <Compile Include="Utiles\Theme\ThemeColor.cs" />
@@ -424,6 +431,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Catalogos\FrmMotivosSuspencion.resx">
       <DependentUpon>FrmMotivosSuspencion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\FrmRefrescarVistasReportes.resx">
+      <DependentUpon>FrmRefrescarVistasReportes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Procesos\FrmRecibosCaptura.resx">
       <DependentUpon>FrmRecibosCaptura.cs</DependentUpon>

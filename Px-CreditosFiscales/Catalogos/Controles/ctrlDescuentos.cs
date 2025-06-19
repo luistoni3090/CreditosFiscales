@@ -190,7 +190,7 @@ namespace Px_CreditosFiscales.Catalogos.Controles
 
             if (txtValida.Text == "Nuevo") return;
             await _Main.Status($"¿Deseas borrar el registro {_Reg.DESCR}?", (int)MensajeTipo.Question);
-            if (MessageBoxMX.ShowDialog(null, $"¿Deseas borrar el registro {_Reg.DESCR}?", "Precaución", (int)StatusColorsTypes.Question, true) == System.Windows.Forms.DialogResult.Cancel)
+            if (MessageBoxMX.ShowDialog(null,  $"¿Deseas borrar el registro {_Reg.DESCR}?", "Precaución", (int)StatusColorsTypes.Question, true) == System.Windows.Forms.DialogResult.Cancel)
                 return;
 
             await _Main.Status($"¿Realmente estas seguro que Deseas borrar el registro {_Reg.DESCR}?", (int)MensajeTipo.Error);
@@ -241,7 +241,7 @@ namespace Px_CreditosFiscales.Catalogos.Controles
                 return;
 
             await _Main.Status($"¿Deseas {(txtValida.Text == "Nuevo" ? "guardar" : "actualizar")} el registro {_Reg.DESCR}?", (int)MensajeTipo.Question);
-            if (MessageBoxMX.ShowDialog(null, $"¿Deseas {(txtValida.Text == "Nuevo" ? "guardar" : "actualizar")} el registro {_Reg.DESCR}?", "Precaución", (int)StatusColorsTypes.Question, true) == System.Windows.Forms.DialogResult.Cancel)
+            if (MessageBoxMX.ShowDialog(null,  $"¿Deseas {(txtValida.Text == "Nuevo" ? "guardar" : "actualizar")} el registro {_Reg.DESCR}?", "Precaución", (int)StatusColorsTypes.Question, true) == System.Windows.Forms.DialogResult.Cancel)
                 return;
             Cursor = Cursors.AppStarting;
 

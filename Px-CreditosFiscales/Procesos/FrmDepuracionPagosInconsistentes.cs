@@ -119,7 +119,7 @@ namespace Px_CreditosFiscales
             if (radioButton1.Checked)            
             MessageBoxMX.ShowDialog(null, $"No se encontró información para el crédito ", "Aviso", (int)StatusColorsTypes.Warning, false);
             else
-            MessageBoxMX.ShowDialog(null, $"No se encontró información para la fecha ", "Aviso", (int)StatusColorsTypes.Warning, false);
+            MessageBoxMX.ShowDialog(null,  $"No se encontró información para la fecha ", "Aviso", (int)StatusColorsTypes.Warning, false);
         }
 
         private void panContent_Paint(object sender, PaintEventArgs e)

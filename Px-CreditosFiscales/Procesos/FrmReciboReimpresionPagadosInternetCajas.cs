@@ -215,11 +215,11 @@ namespace Px_CreditosFiscales
 
             if (chkPeriodo.Checked)
             {
-                MessageBoxMX.ShowDialog(null, $"No se encontró Recibo(s) dentro del rango " + txtFechaDel.Text + " - " + txtFechaAl.Text + "", "Aviso", (int)StatusColorsTypes.Warning, false);
+                MessageBoxMX.ShowDialog(null,  $"No se encontró Recibo(s) dentro del rango " + txtFechaDel.Text + " - " + txtFechaAl.Text + "", "Aviso", (int)StatusColorsTypes.Warning, false);
             }
             else if (rdInternet.Checked && rdConvenio.Checked || rdInternet.Checked && rdLiquidacion.Checked)
             {
-                MessageBoxMX.ShowDialog(null, $"No se encontró Recibo para el Crédito " + txtCredito.Text + " con fecha "+ fecha +" ", "Aviso", (int)StatusColorsTypes.Warning, false);
+                MessageBoxMX.ShowDialog(null,  $"No se encontró Recibo para el Crédito " + txtCredito.Text + " con fecha "+ fecha +" ", "Aviso", (int)StatusColorsTypes.Warning, false);
             }
             else if (rdCajas.Checked && rdConvenio.Checked || rdCajas.Checked && rdLiquidacion.Checked)
             {

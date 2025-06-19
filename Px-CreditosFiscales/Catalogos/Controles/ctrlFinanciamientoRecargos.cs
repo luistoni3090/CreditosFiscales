@@ -220,7 +220,7 @@ namespace Px_CreditosFiscales.Catalogos.Controles
             {
                 if (txtValida.Text == "Nuevo") return;
                 await _Main.Status($"¿Deseas borrar el registro con año {_Reg.ANIO} y mes {_Reg.MES}?", (int)MensajeTipo.Question);
-                if (MessageBoxMX.ShowDialog(null, $"¿Deseas borrar el registro con año {_Reg.ANIO} y mes {_Reg.MES}?", "Precaución", (int)StatusColorsTypes.Question, true) == System.Windows.Forms.DialogResult.Cancel)
+                if (MessageBoxMX.ShowDialog(null,  $"¿Deseas borrar el registro con año {_Reg.ANIO} y mes {_Reg.MES}?", "Precaución", (int)StatusColorsTypes.Question, true) == System.Windows.Forms.DialogResult.Cancel)
                     return;
 
                 await _Main.Status($"¿Realmente estas seguro que Deseas borrar el registro con año {_Reg.ANIO} y mes {_Reg.MES}?", (int)MensajeTipo.Error);
@@ -312,7 +312,7 @@ namespace Px_CreditosFiscales.Catalogos.Controles
 
             if (TIPO == "E") { 
                 await _Main.Status($"¿Deseas {(txtValida.Text == "Nuevo" ? "guardar" : "actualizar")} el registro con Año {_Reg.ANIO} y Mes {_Reg.MES}?", (int)MensajeTipo.Question);
-                if (MessageBoxMX.ShowDialog(null, $"¿Deseas {(txtValida.Text == "Nuevo" ? "guardar" : "actualizar")} el registro con Año {_Reg.ANIO} y Mes {_Reg.MES}?", "Precaución", (int)StatusColorsTypes.Question, true) == System.Windows.Forms.DialogResult.Cancel)
+                if (MessageBoxMX.ShowDialog(null,$"¿Deseas {(txtValida.Text == "Nuevo" ? "guardar" : "actualizar")} el registro con Año {_Reg.ANIO} y Mes {_Reg.MES}?", "Precaución", (int)StatusColorsTypes.Question, true) == System.Windows.Forms.DialogResult.Cancel)
                     return;
             }
             else if (TIPO == "F")

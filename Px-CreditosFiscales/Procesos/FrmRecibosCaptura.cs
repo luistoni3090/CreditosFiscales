@@ -118,7 +118,7 @@ namespace Px_CreditosFiscales
         private void button1_Click_1(object sender, EventArgs e)
         {
 
-            MessageBoxMX.ShowDialog(null, $"No se encontraron recibos para el crédito indicado ", "Aviso", (int)StatusColorsTypes.Warning, false);
+            MessageBoxMX.ShowDialog(null,  $"Error al consultar el Crédito " + txtCredito.Text+ "", "Aviso", (int)StatusColorsTypes.Warning, false);
         }
 
         private void panContent_Paint(object sender, PaintEventArgs e)
